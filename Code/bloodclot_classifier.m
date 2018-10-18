@@ -1,16 +1,56 @@
 %%
-Im = imread('2018_1 VWF 17.tif');
+Im = imread('2018_4 VWF 22.tif');
 
-bins = 128
+bins = 128;
 hsvimg = rgb2hsv(Im);
-modifiedIm = applyTreshold(hsvimg, [0.5,0,0.5], [1,0.5,1]);
 
 figure
-imshow(modifiedIm)
+imshow(hsvimg);
+
+[modifiedIm, mask1] = applyTreshold(hsvimg, [200/255,20/255,100/255], [1,120/255,200/255]); % purple mask
+%[modifiedIm2, mask2] = applyTreshold(hsvimg, [200/255,200/255,0/255], [1,255/255,60/255]); % black mask
+[modifiedIm2, mask2] = applyTreshold(Im, [0,0,0], [60,60,60]); % black mask
+
+mask = mask1 | mask2;
+
+mask = bwareaopen(mask, 50);
+
+newIm = Im;
+
+r = Im(:,:,1);
+g = Im(:,:,2);
+b = Im(:,:,3);
+
+r(mask) = 0;
+g(mask) = 0;
+b(mask) = 255;
+
+newIm(:,:,1) = r;
+newIm(:,:,2) = g;
+newIm(:,:,3) = b;
+
+figure
+imshow(newIm);
+%imshow(hsv2rgb(modifiedIm));
+
+%%
+
+modifiedIm = applyTreshold(labimg, [], []);
+
+figure
+imshow(hsv2rgb(modifiedIm));
+
+%%
+mask = (modifiedIm(:,:,1) > 0) | (modifiedIm(:,:,2) > 0) | (modifiedIm(:,:,3) > 0);
+
+stretched = stretchColoursWithMask(modifiedIm, mask);
+figure
+imshow(stretched);
+
+
 %figure
 %decor_Im = decorrstretch(Im, 'Tol', 0.01);
 %imshow(decor_Im)
-
 %%
 imshow(Im(:,:,1))
 %imhist(Im(:,:,1), bins)

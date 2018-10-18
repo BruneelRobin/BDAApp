@@ -1,4 +1,4 @@
-Im = imread("2018_1 VWF 17 raw.tif");
+Im = imread("2018_3 VWF 15 raw.tif");
 imshow(Im)
 gray = rgb2gray(Im);
 imshow(gray)
