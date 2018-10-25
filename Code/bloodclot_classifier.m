@@ -1,19 +1,24 @@
 %%
-Im = imread('2018_4 VWF 22.tif');
+Im = imread('2018_1 VWF 17.tif');
 
 bins = 128;
 hsvimg = rgb2hsv(Im);
 
-figure
-imshow(hsvimg);
+%figure
+%imshow(hsvimg);
 
-[modifiedIm, mask1] = applyTreshold(hsvimg, [200/255,20/255,100/255], [1,120/255,200/255]); % purple mask
+[modifiedIm, mask] = applyTreshold(hsvimg, [200/255,20/255,0], [1,1,200/255]); % purple mask
 %[modifiedIm2, mask2] = applyTreshold(hsvimg, [200/255,200/255,0/255], [1,255/255,60/255]); % black mask
-[modifiedIm2, mask2] = applyTreshold(Im, [0,0,0], [60,60,60]); % black mask
+%[modifiedIm2, mask2] = applyTreshold(Im, [0,0,0], [60,60,60]); % black mask
 
-mask = mask1 | mask2;
-
-mask = bwareaopen(mask, 50);
+%mask = mask1 | mask2;
+mask = bwareaopen(mask, 50); % ruis verwijderen
+%figure
+%imshow(mask);
+%se = strel('disk',1);
+%mask = imclose(mask,se);
+%figure
+%imshow(mask);
 
 newIm = Im;
 
@@ -21,17 +26,19 @@ r = Im(:,:,1);
 g = Im(:,:,2);
 b = Im(:,:,3);
 
-r(mask) = 0;
-g(mask) = 0;
-b(mask) = 255;
+r(mask) = r(mask)*0.75;
+g(mask) = g(mask)*0.75;
+b(mask) = b(mask)*1.2;
+b(b>255) = 255;
 
 newIm(:,:,1) = r;
 newIm(:,:,2) = g;
 newIm(:,:,3) = b;
 
-figure
-imshow(newIm);
+%figure
+%imshow(newIm);
 %imshow(hsv2rgb(modifiedIm));
+imwrite(newIm,'test.tif')
 
 %%
 
