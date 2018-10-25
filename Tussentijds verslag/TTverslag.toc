@@ -1,2 +1,6 @@
 \select@language {dutch}
-\contentsline {section}{\numberline {1}Sectie-titel}{3}{section.1}
+\contentsline {section}{\numberline {1}Klantenvereisten}{3}{section.1}
+\contentsline {section}{\numberline {2}Ontwerpspecificatie}{3}{section.2}
+\contentsline {section}{\numberline {3}Voorlopige resultaten}{3}{section.3}
+\contentsline {section}{\numberline {4}Verantwoordelijkheden en taakverdeling}{3}{section.4}
+\contentsline {section}{\numberline {5}Integratie met vakken uit eerste 3 semsters}{4}{section.5}

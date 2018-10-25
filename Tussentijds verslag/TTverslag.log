@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  25 OCT 2018 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  25 OCT 2018 17:57
 entering extended mode
 **./TTverslag.tex
 (TTverslag.tex
 LaTeX2e <2017-04-15>
 Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
-(C:\Users\gebruiker\texmf\tex\latex\kulak\kulakarticle.cls
+(C:\Users\Marthe\Documents\LaTeX\texmf\tex\latex\kulak\kulakarticle.cls
 Document Class: kulakarticle 2016/10/17 Article class for KU Leuven
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1024,7 +1024,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<voorblad.pdf, id=34, pagebox=cropbox, 614.295pt x 794.97pt>
+<voorblad.pdf, id=50, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf>
 Package pdftex.def Info: voorblad.pdf  used on input line 20. on input line 20.
@@ -1037,7 +1037,7 @@ Package pdftex.def Info: voorblad.pdf  used on input line 20. on input line 20.
 
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 20.
-<voorblad.pdf, id=37, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<voorblad.pdf, id=53, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
 Package pdftex.def Info: voorblad.pdf , page1 used on input line 20. on input l
@@ -1070,16 +1070,16 @@ Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
 e 20.
  [1
 
- <./voorblad.pdf{C:/Users/gebruiker/AppData/Local/MiKTeX/2.9/pdftex/config/pdft
-ex.map}>]
-<kulakLogo.pdf, id=55, pagebox=cropbox, 245.83241pt x 51.21533pt>
+ <./voorblad.pdf{C:/Users/Marthe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
+map}>]
+<kulakLogo.pdf, id=71, pagebox=cropbox, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
 Package pdftex.def Info: kulakLogo.pdf  used on input line 22. on input line 22
 .
 Package pdftex.def Info: Requested size: 204.85858pt x 42.67912pt on input line
  22.
-<kuleuvenSedes.pdf, id=56, pagebox=cropbox, 349.305pt x 596.2275pt>
+<kuleuvenSedes.pdf, id=72, pagebox=cropbox, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
 Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 22. on input lin
@@ -1099,20 +1099,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[2 <C:/Users/gebruiker/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/Users/gebruiker
-/texmf/tex/latex/kulak/kuleuvenSedes.pdf>] (TTverslag.toc)
+(TTverslag.toc)
 \tf@toc=\write5
 \openout5 = `TTverslag.toc'.
 
+ [2 <C:/Users/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/U
+sers/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kuleuvenSedes.pdf>]
 
+! LaTeX Error: Unknown float option `H'.
 
-AED: lastpage setting LastPage
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 		\begin{figure}[H]
+                        
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+l.46 			\subfloat
+                 [Afbeelding van bloedklonter voor die bewerkt wordt]{{\incl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<BloedklonterVoor.jpg, id=97, 531.78674pt x 537.207pt>
+File: BloedklonterVoor.jpg Graphic file (type jpg)
+<use BloedklonterVoor.jpg>
+Package pdftex.def Info: BloedklonterVoor.jpg  used on input line 46. on input 
+line 46.
+Package pdftex.def Info: Requested size: 128.0374pt x 129.34216pt on input line
+ 46.
+! Undefined control sequence.
+l.48 			\subfloat
+                 [Bijgesneden afbeelding van de Bloedklonter met witte achte...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<BloedklonterNa.jpg, id=98, 508.90125pt x 538.4115pt>
+File: BloedklonterNa.jpg Graphic file (type jpg)
+<use BloedklonterNa.jpg>
+Package pdftex.def Info: BloedklonterNa.jpg  used on input line 48. on input li
+ne 48.
+Package pdftex.def Info: Requested size: 128.0374pt x 135.45695pt on input line
+ 48.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 40. on input lin
-e 40.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 66. on input lin
+e 66.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-40.
+66.
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1122,7 +1163,45 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.40 \end{document}
+l.66 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.66 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] 
+AED: lastpage setting LastPage
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 70. on input lin
+e 70.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+70.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.70 \end{document}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1131,7 +1210,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.40 \end{document}
+l.70 \end{document}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1143,42 +1222,74 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+[4]
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 70. on input lin
+e 70.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+70.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.70 \end{document}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.70 \end{document}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./BloedklonterVoor.jpg> <./BloedklonterNa.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (TTverslag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `TTverslag.out' has not changed.
-(rerunfilecheck)             Checksum: BEE17C5FC470C98749DCBC1771DC41AF;48.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+(rerunfilecheck)             Checksum: FBFC0470ACE93D4551EEC22D5CEA400E;317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 18144 strings out of 493314
- 349223 string characters out of 3138855
- 408495 words of memory out of 3000000
- 21336 multiletter control sequences out of 15000+200000
+ 18167 strings out of 493314
+ 349612 string characters out of 3138864
+ 412596 words of memory out of 3000000
+ 21350 multiletter control sequences out of 15000+200000
  10849 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,80p,418b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.4} has been referenced but does not exist, r
-eplaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1
-000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on TTverslag.pdf (3 pages, 347461 bytes).
+ 62i,18n,80p,646b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb
+>
+Output written on TTverslag.pdf (5 pages, 584677 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
