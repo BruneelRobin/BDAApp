@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  27 OCT 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  27 OCT 2018 23:45
 entering extended mode
 **./TTverslag.tex
 (TTverslag.tex
 LaTeX2e <2017-04-15>
 Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
-(C:\Users\Marthe\Documents\LaTeX\texmf\tex\latex\kulak\kulakarticle.cls
+(C:\Users\gebruiker\texmf\tex\latex\kulak\kulakarticle.cls
 Document Class: kulakarticle 2016/10/17 Article class for KU Leuven
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -950,20 +950,62 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count130
 \AM@templatesizebox=\box67
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen177
+\captionmargin@=\dimen178
+\captionwidth=\dimen179
+\caption@tempdima=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
+)
+\c@ContinuedFloat=\count131
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count132
+\sf@farskip=\skip61
+\sf@captopadj=\dimen184
+\sf@capskip=\skip62
+\sf@nearskip=\skip63
+\c@subfigure=\count133
+\c@subfigure@save=\count134
+\c@lofdepth=\count135
+\c@subtable=\count136
+\c@subtable@save=\count137
+\c@lotdepth=\count138
+\sf@top=\skip64
+\sf@bottom=\skip65
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count139
+\float@exts=\toks31
+\float@box=\box68
+\@float@everytoks=\toks32
+\@floatcapt=\box69
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count131
-\Gm@cntv=\count132
-\c@Gm@tempcnt=\count133
-\Gm@bindingoffset=\dimen177
-\Gm@wd@mp=\dimen178
-\Gm@odd@mp=\dimen179
-\Gm@even@mp=\dimen180
-\Gm@layoutwidth=\dimen181
-\Gm@layoutheight=\dimen182
-\Gm@layouthoffset=\dimen183
-\Gm@layoutvoffset=\dimen184
-\Gm@dimlist=\toks31
+\Gm@cnth=\count140
+\Gm@cntv=\count141
+\c@Gm@tempcnt=\count142
+\Gm@bindingoffset=\dimen185
+\Gm@wd@mp=\dimen186
+\Gm@odd@mp=\dimen187
+\Gm@even@mp=\dimen188
+\Gm@layoutwidth=\dimen189
+\Gm@layoutheight=\dimen190
+\Gm@layouthoffset=\dimen191
+\Gm@layoutvoffset=\dimen192
+\Gm@dimlist=\toks33
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgfgantt\pgfgantt.sty"
@@ -994,54 +1036,54 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfcalendar.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfcalendar.code.tex"
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count134
+\pgfcalendarcurrentjulian=\count143
 ))
-\gtt@currentline=\count135
-\gtt@lasttitleline=\count136
-\gtt@currgrid=\count137
-\gtt@chartwidth=\count138
-\gtt@lasttitleslot=\count139
-\gtt@elementid=\count140
-\gtt@today@slot=\count141
-\gtt@startjulian=\count142
-\gtt@endjulian=\count143
-\gtt@calendar@slots=\count144
-\gtt@calendar@weeknumber=\count145
-\gtt@calendar@startofweek=\count146
-\gtt@left@slot=\count147
-\gtt@right@slot=\count148
+\gtt@currentline=\count144
+\gtt@lasttitleline=\count145
+\gtt@currgrid=\count146
+\gtt@chartwidth=\count147
+\gtt@lasttitleslot=\count148
+\gtt@elementid=\count149
+\gtt@today@slot=\count150
+\gtt@startjulian=\count151
+\gtt@endjulian=\count152
+\gtt@calendar@slots=\count153
+\gtt@calendar@weeknumber=\count154
+\gtt@calendar@startofweek=\count155
+\gtt@left@slot=\count156
+\gtt@right@slot=\count157
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 ) (TTverslag.aux)
 \openout1 = `TTverslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-\AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring OFF on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring OFF on input line 55.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count149
+\c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (TTverslag.out) (TTverslag.out)
 \@outlinefile=\write4
@@ -1050,17 +1092,17 @@ LaTeX Info: Redefining \nameref on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
-\scratchdimen=\dimen185
-\scratchbox=\box69
-\nofMPsegments=\count151
-\nofMParguments=\count152
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count153
-\MPscratchDim=\dimen186
-\MPnumerator=\count154
-\makeMPintoPDFobject=\count155
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count159
+\scratchdimen=\dimen193
+\scratchbox=\box71
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen194
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks35
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1076,13 +1118,18 @@ G,.JBIG2,.JB2,.eps]
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 53.
+(lastpage)             ! on input line 55.
 
 ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1120,205 +1167,128 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <voorblad.pdf, id=94, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf>
-Package pdftex.def Info: voorblad.pdf  used on input line 54. on input line 54.
+Package pdftex.def Info: voorblad.pdf  used on input line 56. on input line 56.
 
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 54.
+e 56.
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf>
-Package pdftex.def Info: voorblad.pdf  used on input line 54. on input line 54.
+Package pdftex.def Info: voorblad.pdf  used on input line 56. on input line 56.
 
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 54.
+e 56.
 <voorblad.pdf, id=97, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: voorblad.pdf , page1 used on input line 56. on input l
+ine 56.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 54.
+e 56.
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: voorblad.pdf , page1 used on input line 56. on input l
+ine 56.
 Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 54.
+e 56.
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: voorblad.pdf , page1 used on input line 56. on input l
+ine 56.
 Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 54.
+e 56.
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: voorblad.pdf , page1 used on input line 56. on input l
+ine 56.
 Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 54.
+e 56.
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: voorblad.pdf , page1 used on input line 56. on input l
+ine 56.
 Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 54.
+e 56.
 [1
 
- <./voorblad.pdf{C:/Users/Marthe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
-map}>]
+ <./voorblad.pdf{C:/Users/gebruiker/AppData/Local/MiKTeX/2.9/pdftex/config/pdft
+ex.map}>]
 <kulakLogo.pdf, id=115, pagebox=cropbox, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
-Package pdftex.def Info: kulakLogo.pdf  used on input line 56. on input line 56
+Package pdftex.def Info: kulakLogo.pdf  used on input line 59. on input line 59
 .
 Package pdftex.def Info: Requested size: 204.85858pt x 42.67912pt on input line
- 56.
+ 59.
 <kuleuvenSedes.pdf, id=116, pagebox=cropbox, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 56. on input lin
-e 56.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 59. on input lin
+e 59.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-56.
+59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
+(Font)              <5> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 59.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+<top10doodsoorzaken.jpg, id=118, 443.40656pt x 292.84406pt>
+File: top10doodsoorzaken.jpg Graphic file (type jpg)
+<use top10doodsoorzaken.jpg>
+Package pdftex.def Info: top10doodsoorzaken.jpg  used on input line 76. on inpu
+t line 76.
+Package pdftex.def Info: Requested size: 318.66948pt x 210.47667pt on input lin
+e 76.
+[2 <C:/Users/gebruiker/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/Users/gebruiker
+/texmf/tex/latex/kulak/kuleuvenSedes.pdf> <./top10doodsoorzaken.jpg>]
 (TTverslag.toc)
 \tf@toc=\write5
 \openout5 = `TTverslag.toc'.
 
- [2 <C:/Users/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/U
-sers/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kuleuvenSedes.pdf>]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 		\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-<Ruis_afbeelding.png, id=152, 1133.23375pt x 705.63625pt>
-File: Ruis_afbeelding.png Graphic file (type png)
-<use Ruis_afbeelding.png>
-Package pdftex.def Info: Ruis_afbeelding.png  used on input line 80. on input l
-ine 80.
-Package pdftex.def Info: Requested size: 455.24411pt x 283.46619pt on input lin
-e 80.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 	\begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.91 	\subfloat
-               []{{\includegraphics[height=8cm]{origineel_vb}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<origineel_vb.png, id=157, 575.14874pt x 575.14874pt>
-File: origineel_vb.png Graphic file (type png)
-<use origineel_vb.png>
-Package pdftex.def Info: origineel_vb.png  used on input line 91. on input line
- 91.
-Package pdftex.def Info: Requested size: 227.62445pt x 227.62204pt on input lin
-e 91.
-! Undefined control sequence.
-l.92 	\subfloat
-               []{{\includegraphics[height=8cm]{grijswaarden_vb}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<grijswaarden_vb.png, id=158, 549.55313pt x 539.01375pt>
-File: grijswaarden_vb.png Graphic file (type png)
-<use grijswaarden_vb.png>
-Package pdftex.def Info: grijswaarden_vb.png  used on input line 92. on input l
-ine 92.
-Package pdftex.def Info: Requested size: 232.07695pt x 227.62204pt on input lin
-e 92.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 	\begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<GetBestTreshold_vb_aangeduid.png, id=159, 650.43pt x 531.9072pt>
-File: GetBestTreshold_vb_aangeduid.png Graphic file (type png)
-<use GetBestTreshold_vb_aangeduid.png>
-Package pdftex.def Info: GetBestTreshold_vb_aangeduid.png  used on input line 1
-00. on input line 100.
-Package pdftex.def Info: Requested size: 386.96027pt x 316.45218pt on input lin
-e 100.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-<grijswaarden_bin_vb.png, id=160, 552.56438pt x 534.99875pt>
-File: grijswaarden_bin_vb.png Graphic file (type png)
-<use grijswaarden_bin_vb.png>
-Package pdftex.def Info: grijswaarden_bin_vb.png  used on input line 108. on in
-put line 108.
-Package pdftex.def Info: Requested size: 318.66948pt x 308.5362pt on input line
- 108.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-<grijswaarden_bin_gevuld_vb.png, id=163, 621.32124pt x 606.265pt>
-File: grijswaarden_bin_gevuld_vb.png Graphic file (type png)
-<use grijswaarden_bin_gevuld_vb.png>
-Package pdftex.def Info: grijswaarden_bin_gevuld_vb.png  used on input line 118
-. on input line 118.
-Package pdftex.def Info: Requested size: 318.66948pt x 310.94872pt on input lin
-e 118.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 125. on input li
-ne 125.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 84. on input lin
+e 84.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-125.
+84.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1328,8 +1298,8 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.125 
-      
+l.84 	\newpage
+              
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1337,8 +1307,8 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.125 
-      
+l.84 	\newpage
+              
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1350,378 +1320,20 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.128 	\subfloat
-                []{{\includegraphics[width=8cm]{ruisvrij_vb}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<ruisvrij_vb.png, id=180, 606.265pt x 603.25375pt>
-File: ruisvrij_vb.png Graphic file (type png)
-<use ruisvrij_vb.png>
-Package pdftex.def Info: ruisvrij_vb.png  used on input line 128. on input line
- 128.
-Package pdftex.def Info: Requested size: 227.62204pt x 226.49574pt on input lin
-e 128.
-! Undefined control sequence.
-l.129 	\subfloat
-                []{{\includegraphics[width=8cm]{ruisvrij_kleur_vb}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<ruisvrij_kleur_vb.png, id=181, 602.25pt x 607.26875pt>
-File: ruisvrij_kleur_vb.png Graphic file (type png)
-<use ruisvrij_kleur_vb.png>
-Package pdftex.def Info: ruisvrij_kleur_vb.png  used on input line 129. on inpu
-t line 129.
-Package pdftex.def Info: Requested size: 227.62204pt x 229.52286pt on input lin
-e 129.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.141 	\subfloat
-                []{{\includegraphics[width=7.5cm]{Indicator_vb1}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<Indicator_vb1.png, id=186, 675.52374pt x 685.56125pt>
-File: Indicator_vb1.png Graphic file (type png)
-<use Indicator_vb1.png>
-Package pdftex.def Info: Indicator_vb1.png  used on input line 141. on input li
-ne 141.
-Package pdftex.def Info: Requested size: 213.39566pt x 216.55966pt on input lin
-e 141.
-! Undefined control sequence.
-l.143 	\subfloat
-                []{{\includegraphics[width=7.5cm]{Indicator_vb2}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<Indicator_vb2.png, id=187, 697.60625pt x 707.64375pt>
-File: Indicator_vb2.png Graphic file (type png)
-<use Indicator_vb2.png>
-Package pdftex.def Info: Indicator_vb2.png  used on input line 143. on input li
-ne 143.
-Package pdftex.def Info: Requested size: 213.39566pt x 216.46269pt on input lin
-e 143.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-<HSV_vb.png, id=188, 1284.8pt x 1027.84pt>
-File: HSV_vb.png Graphic file (type png)
-<use HSV_vb.png>
-Package pdftex.def Info: HSV_vb.png  used on input line 151. on input line 151.
-
-Package pdftex.def Info: Requested size: 318.66948pt x 254.93619pt on input lin
-e 151.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.162 	\subfloat
-                []{{\includegraphics[width=4.5cm]{RGB_r}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<RGB_r.jpg, id=192, 1122.1925pt x 1033.8625pt>
-File: RGB_r.jpg Graphic file (type jpg)
-<use RGB_r.jpg>
-Package pdftex.def Info: RGB_r.jpg  used on input line 162. on input line 162.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 162.
-! Undefined control sequence.
-l.164 	\subfloat
-                []{{\includegraphics[width=4.5cm]{RGB_g}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<RGB_g.jpg, id=193, 1122.1925pt x 1033.8625pt>
-File: RGB_g.jpg Graphic file (type jpg)
-<use RGB_g.jpg>
-Package pdftex.def Info: RGB_g.jpg  used on input line 164. on input line 164.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 164.
-! Undefined control sequence.
-l.166 	\subfloat
-                []{{\includegraphics[width=4.5cm]{RGB_b}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<RGB_b.jpg, id=194, 1122.1925pt x 1033.8625pt>
-File: RGB_b.jpg Graphic file (type jpg)
-<use RGB_b.jpg>
-Package pdftex.def Info: RGB_b.jpg  used on input line 166. on input line 166.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 166.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.173 	\subfloat
-                []{{\includegraphics[width=4.5cm]{HSV_h}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<HSV_h.jpg, id=195, 1122.1925pt x 1033.8625pt>
-File: HSV_h.jpg Graphic file (type jpg)
-<use HSV_h.jpg>
-Package pdftex.def Info: HSV_h.jpg  used on input line 173. on input line 173.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 173.
-! Undefined control sequence.
-l.175 	\subfloat
-                []{{\includegraphics[width=4.5cm]{HSV_s}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<HSV_s.jpg, id=196, 1122.1925pt x 1033.8625pt>
-File: HSV_s.jpg Graphic file (type jpg)
-<use HSV_s.jpg>
-Package pdftex.def Info: HSV_s.jpg  used on input line 175. on input line 175.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 175.
-! Undefined control sequence.
-l.177 	\subfloat
-                []{{\includegraphics[width=4.5cm]{HSV_v}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<HSV_v.jpg, id=197, 1122.1925pt x 1033.8625pt>
-File: HSV_v.jpg Graphic file (type jpg)
-<use HSV_v.jpg>
-Package pdftex.def Info: HSV_v.jpg  used on input line 177. on input line 177.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 177.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-<algemene_treshold.jpg, id=199, 1100.11pt x 1003.75pt>
-File: algemene_treshold.jpg Graphic file (type jpg)
-<use algemene_treshold.jpg>
-Package pdftex.def Info: algemene_treshold.jpg  used on input line 188. on inpu
-t line 188.
-Package pdftex.def Info: Requested size: 318.66948pt x 290.7584pt on input line
- 188.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.202 	\subfloat
-                []{{\includegraphics[width=4.5cm]{hsvhist_h}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package epstopdf Info: Source file: <hsvhist_h.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 21378 bytes
-(epstopdf)             Output file: <hsvhist_h-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 9877 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_h-eps-converted-to.
-pdf hsvhist_h.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_h-eps-converted-to.pdf, id=202, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_h-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf  used on input line 202
-. on input line 202.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-202.
-! Undefined control sequence.
-l.204 	\subfloat
-                []{{\includegraphics[width=4.5cm]{hsvhist_s}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package epstopdf Info: Source file: <hsvhist_s.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 22040 bytes
-(epstopdf)             Output file: <hsvhist_s-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 10079 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_s-eps-converted-to.
-pdf hsvhist_s.eps>
-(epstopdf)             \includegraphics on input line 204.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_s-eps-converted-to.pdf, id=203, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_s-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf  used on input line 204
-. on input line 204.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-204.
-! Undefined control sequence.
-l.206 	\subfloat
-                []{{\includegraphics[width=4.5cm]{hsvhist_v}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package epstopdf Info: Source file: <hsvhist_v.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 22436 bytes
-(epstopdf)             Output file: <hsvhist_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 10026 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_v-eps-converted-to.
-pdf hsvhist_v.eps>
-(epstopdf)             \includegraphics on input line 206.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_v-eps-converted-to.pdf, id=204, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_v-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf  used on input line 206
-. on input line 206.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-206.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 	\begin{figure}[H]
-                        
-Option `H' ignored and `p' used.
-
-! Undefined control sequence.
-l.214 	\subfloat
-                []{{\includegraphics[width=7.5cm]{morf_open}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<morf_open.png, id=205, 256.96pt x 256.96pt>
-File: morf_open.png Graphic file (type png)
-<use morf_open.png>
-Package pdftex.def Info: morf_open.png  used on input line 214. on input line 2
-14.
-Package pdftex.def Info: Requested size: 213.39566pt x 213.39828pt on input lin
-e 214.
-! Undefined control sequence.
-l.216 	\subfloat
-                []{{\includegraphics[width=7.5cm]{morf_gesloten}}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<morf_gesloten.png, id=206, 256.96pt x 256.96pt>
-File: morf_gesloten.png Graphic file (type png)
-<use morf_gesloten.png>
-Package pdftex.def Info: morf_gesloten.png  used on input line 216. on input li
-ne 216.
-Package pdftex.def Info: Requested size: 213.39566pt x 213.39828pt on input lin
-e 216.
+<Ruis_afbeelding.png, id=164, 1133.23375pt x 705.63625pt>
+File: Ruis_afbeelding.png Graphic file (type png)
+<use Ruis_afbeelding.png>
+Package pdftex.def Info: Ruis_afbeelding.png  used on input line 106. on input 
+line 106.
+Package pdftex.def Info: Requested size: 318.66948pt x 198.4274pt on input line
+ 106.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 224. on input li
-ne 224.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 113. on input li
+ne 113.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-224.
+113.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1731,7 +1343,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.224 
+l.113 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1740,7 +1352,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.224 
+l.113 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1752,83 +1364,503 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[4 <./Ruis_afbeelding.png>]
+<origineel_vb.png, id=177, 575.14874pt x 575.14874pt>
+File: origineel_vb.png Graphic file (type png)
+<use origineel_vb.png>
+Package pdftex.def Info: origineel_vb.png  used on input line 116. on input lin
+e 116.
+Package pdftex.def Info: Requested size: 170.71652pt x 170.71176pt on input lin
+e 116.
+<grijswaarden_vb.png, id=178, 549.55313pt x 539.01375pt>
+File: grijswaarden_vb.png Graphic file (type png)
+<use grijswaarden_vb.png>
+Package pdftex.def Info: grijswaarden_vb.png  used on input line 118. on input 
+line 118.
+Package pdftex.def Info: Requested size: 170.71652pt x 167.43796pt on input lin
+e 118.
+<GetBestthreshold_vb_aangeduid.png, id=179, 650.43pt x 531.9072pt>
+File: GetBestthreshold_vb_aangeduid.png Graphic file (type png)
+<use GetBestthreshold_vb_aangeduid.png>
+Package pdftex.def Info: GetBestthreshold_vb_aangeduid.png  used on input line 
+126. on input line 126.
+Package pdftex.def Info: Requested size: 386.96027pt x 316.45218pt on input lin
+e 126.
+<grijswaarden_bin_vb.png, id=180, 552.56438pt x 534.99875pt>
+File: grijswaarden_bin_vb.png Graphic file (type png)
+<use grijswaarden_bin_vb.png>
+Package pdftex.def Info: grijswaarden_bin_vb.png  used on input line 134. on in
+put line 134.
+Package pdftex.def Info: Requested size: 318.66948pt x 308.5362pt on input line
+ 134.
 
-! LaTeX Error: Unknown float option `H'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.225 		\begin{figure}[H]
-                         
-Option `H' ignored and `p' used.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<app.jpg, id=223, 1161.138pt x 592.614pt>
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 141. on input li
+ne 141.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+141.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.141 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.141 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./origineel_vb.png> <./grijswaarden_vb.png> <./GetBestthreshold_vb_aangedui
+d.png>]
+<grijswaarden_bin_gevuld_vb.png, id=196, 621.32124pt x 606.265pt>
+File: grijswaarden_bin_gevuld_vb.png Graphic file (type png)
+<use grijswaarden_bin_gevuld_vb.png>
+Package pdftex.def Info: grijswaarden_bin_gevuld_vb.png  used on input line 144
+. on input line 144.
+Package pdftex.def Info: Requested size: 318.66948pt x 310.94872pt on input lin
+e 144.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ruisvrij_vb.png, id=199, 606.265pt x 603.25375pt>
+File: ruisvrij_vb.png Graphic file (type png)
+<use ruisvrij_vb.png>
+Package pdftex.def Info: ruisvrij_vb.png  used on input line 154. on input line
+ 154.
+Package pdftex.def Info: Requested size: 199.16928pt x 198.18147pt on input lin
+e 154.
+<ruisvrij_kleur_vb.png, id=200, 602.25pt x 607.26875pt>
+File: ruisvrij_kleur_vb.png Graphic file (type png)
+<use ruisvrij_kleur_vb.png>
+Package pdftex.def Info: ruisvrij_kleur_vb.png  used on input line 156. on inpu
+t line 156.
+Package pdftex.def Info: Requested size: 199.16928pt x 200.82555pt on input lin
+e 156.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 162. on input li
+ne 162.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+162.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.162 	\newpage
+               
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.162 	\newpage
+               
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./grijswaarden_bin_vb.png>]
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 166. on input li
+ne 166.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+166.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.166 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.166 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./grijswaarden_bin_gevuld_vb.png> <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.
+png>]
+<Indicator_vb1.png, id=229, 675.52374pt x 685.56125pt>
+File: Indicator_vb1.png Graphic file (type png)
+<use Indicator_vb1.png>
+Package pdftex.def Info: Indicator_vb1.png  used on input line 169. on input li
+ne 169.
+Package pdftex.def Info: Requested size: 199.16928pt x 202.12375pt on input lin
+e 169.
+<Indicator_vb2.png, id=230, 697.60625pt x 707.64375pt>
+File: Indicator_vb2.png Graphic file (type png)
+<use Indicator_vb2.png>
+Package pdftex.def Info: Indicator_vb2.png  used on input line 171. on input li
+ne 171.
+Package pdftex.def Info: Requested size: 199.16928pt x 202.0369pt on input line
+ 171.
+<HSV_vb.png, id=231, 1284.8pt x 1027.84pt>
+File: HSV_vb.png Graphic file (type png)
+<use HSV_vb.png>
+Package pdftex.def Info: HSV_vb.png  used on input line 179. on input line 179.
+
+Package pdftex.def Info: Requested size: 318.66948pt x 254.93619pt on input lin
+e 179.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 187. on input li
+ne 187.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+187.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.187 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.187 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./Indicator_vb1.png> <./Indicator_vb2.png> <./HSV_vb.png>]
+<RGB_r.jpg, id=246, 1122.1925pt x 1033.8625pt>
+File: RGB_r.jpg Graphic file (type jpg)
+<use RGB_r.jpg>
+Package pdftex.def Info: RGB_r.jpg  used on input line 190. on input line 190.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 190.
+<RGB_g.jpg, id=247, 1122.1925pt x 1033.8625pt>
+File: RGB_g.jpg Graphic file (type jpg)
+<use RGB_g.jpg>
+Package pdftex.def Info: RGB_g.jpg  used on input line 192. on input line 192.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 192.
+<RGB_b.jpg, id=248, 1122.1925pt x 1033.8625pt>
+File: RGB_b.jpg Graphic file (type jpg)
+<use RGB_b.jpg>
+Package pdftex.def Info: RGB_b.jpg  used on input line 194. on input line 194.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 194.
+<HSV_h.jpg, id=249, 1122.1925pt x 1033.8625pt>
+File: HSV_h.jpg Graphic file (type jpg)
+<use HSV_h.jpg>
+Package pdftex.def Info: HSV_h.jpg  used on input line 201. on input line 201.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 201.
+<HSV_s.jpg, id=250, 1122.1925pt x 1033.8625pt>
+File: HSV_s.jpg Graphic file (type jpg)
+<use HSV_s.jpg>
+Package pdftex.def Info: HSV_s.jpg  used on input line 203. on input line 203.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 203.
+<HSV_v.jpg, id=251, 1122.1925pt x 1033.8625pt>
+File: HSV_v.jpg Graphic file (type jpg)
+<use HSV_v.jpg>
+Package pdftex.def Info: HSV_v.jpg  used on input line 205. on input line 205.
+Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
+ 205.
+<algemene_threshold.jpg, id=253, 1100.11pt x 1003.75pt>
+File: algemene_threshold.jpg Graphic file (type jpg)
+<use algemene_threshold.jpg>
+Package pdftex.def Info: algemene_threshold.jpg  used on input line 216. on inp
+ut line 216.
+Package pdftex.def Info: Requested size: 318.66948pt x 290.7584pt on input line
+ 216.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 226. on input li
+ne 226.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+226.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.226 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.226 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg> <./HSV_h.jpg> <./HSV_s.jpg> <./HSV
+_v.jpg>]
+Package epstopdf Info: Source file: <hsvhist_h.eps>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 21378 bytes
+(epstopdf)             Output file: <hsvhist_h-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 9877 bytes
+(epstopdf)             Command: <epstopdf --outfile=hsvhist_h-eps-converted-to.
+pdf hsvhist_h.eps>
+(epstopdf)             \includegraphics on input line 230.
+Package epstopdf Info: Output file is already uptodate.
+<hsvhist_h-eps-converted-to.pdf, id=271, pagebox=cropbox, 562.1pt x 421.575pt>
+File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
+<use hsvhist_h-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf  used on input line 230
+. on input line 230.
+Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
+230.
+Package epstopdf Info: Source file: <hsvhist_s.eps>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 22040 bytes
+(epstopdf)             Output file: <hsvhist_s-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 10079 bytes
+(epstopdf)             Command: <epstopdf --outfile=hsvhist_s-eps-converted-to.
+pdf hsvhist_s.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+<hsvhist_s-eps-converted-to.pdf, id=272, pagebox=cropbox, 562.1pt x 421.575pt>
+File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
+<use hsvhist_s-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf  used on input line 232
+. on input line 232.
+Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
+232.
+Package epstopdf Info: Source file: <hsvhist_v.eps>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 22436 bytes
+(epstopdf)             Output file: <hsvhist_v-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 19:35:13
+(epstopdf)                    size: 10026 bytes
+(epstopdf)             Command: <epstopdf --outfile=hsvhist_v-eps-converted-to.
+pdf hsvhist_v.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
+<hsvhist_v-eps-converted-to.pdf, id=273, pagebox=cropbox, 562.1pt x 421.575pt>
+File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
+<use hsvhist_v-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf  used on input line 234
+. on input line 234.
+Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
+234.
+<morf_open.png, id=274, 256.96pt x 256.96pt>
+File: morf_open.png Graphic file (type png)
+<use morf_open.png>
+Package pdftex.def Info: morf_open.png  used on input line 242. on input line 2
+42.
+Package pdftex.def Info: Requested size: 199.16928pt x 199.1733pt on input line
+ 242.
+<morf_gesloten.png, id=275, 256.96pt x 256.96pt>
+File: morf_gesloten.png Graphic file (type png)
+<use morf_gesloten.png>
+Package pdftex.def Info: morf_gesloten.png  used on input line 244. on input li
+ne 244.
+Package pdftex.def Info: Requested size: 199.16928pt x 199.1733pt on input line
+ 244.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 249. on input li
+ne 249.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+249.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.249 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.249 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./algemene_threshold.jpg> <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-
+eps-converted-to.pdf> <./hsvhist_v-eps-converted-to.pdf>]
+<app.jpg, id=310, 1161.138pt x 592.614pt>
 File: app.jpg Graphic file (type jpg)
 <use app.jpg>
-Package pdftex.def Info: app.jpg  used on input line 227. on input line 227.
+Package pdftex.def Info: app.jpg  used on input line 255. on input line 255.
 Package pdftex.def Info: Requested size: 483.69684pt x 246.8616pt on input line
- 227.
+ 255.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 227--228
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 265. on input li
+ne 265.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+265.
 
-! LaTeX Error: Unknown float option `H'.
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 		\begin{figure}[H]
-                         
-Option `H' ignored and `p' used.
+! Missing } inserted.
+<inserted text> 
+                }
+l.265 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
-! Undefined control sequence.
-l.240 		\subfloat
-                 [Afbeelding van bloedklonter voor die bewerkt wordt]{{\incl...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+! Missing { inserted.
+<inserted text> 
+                {
+l.265 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
 
-<BloedklonterVoor.jpg, id=225, 531.78674pt x 537.207pt>
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./morf_open.png> <./morf_gesloten.png> <./app.jpg>]
+<BloedklonterVoor.jpg, id=322, 531.78674pt x 537.207pt>
 File: BloedklonterVoor.jpg Graphic file (type jpg)
 <use BloedklonterVoor.jpg>
-Package pdftex.def Info: BloedklonterVoor.jpg  used on input line 240. on input
- line 240.
-Package pdftex.def Info: Requested size: 128.0374pt x 129.34216pt on input line
- 240.
-! Undefined control sequence.
-l.242 		\subfloat
-                 [Bijgesneden afbeelding van de Bloedklonter met witte achte...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<BloedklonterNa.jpg, id=226, 508.90125pt x 538.4115pt>
+Package pdftex.def Info: BloedklonterVoor.jpg  used on input line 268. on input
+ line 268.
+Package pdftex.def Info: Requested size: 199.16928pt x 201.19801pt on input lin
+e 268.
+<BloedklonterNa.jpg, id=323, 508.90125pt x 538.4115pt>
 File: BloedklonterNa.jpg Graphic file (type jpg)
 <use BloedklonterNa.jpg>
-Package pdftex.def Info: BloedklonterNa.jpg  used on input line 242. on input l
-ine 242.
-Package pdftex.def Info: Requested size: 128.0374pt x 135.45695pt on input line
- 242.
+Package pdftex.def Info: BloedklonterNa.jpg  used on input line 270. on input l
+ine 270.
+Package pdftex.def Info: Requested size: 199.16928pt x 210.71902pt on input lin
+e 270.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 263. on input li
-ne 263.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 280. on input li
+ne 280.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-263.
+280.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1838,7 +1870,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.263 	\newpage
+l.280 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1847,7 +1879,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.263 	\newpage
+l.280 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1859,13 +1891,13 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[12 <./BloedklonterVoor.jpg> <./BloedklonterNa.jpg>]
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 293. on input li
+ne 293.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
+293.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1876,8 +1908,8 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.267 		\begin{landscape}
-                         
+l.293 	\newpage
+               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1885,8 +1917,8 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.267 		\begin{landscape}
-                         
+l.293 	\newpage
+               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1897,361 +1929,17 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./Ruis_afbeelding.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 <./origineel_vb.png> <./grijswaarden_vb.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <./GetBestTreshold_vb_aangeduid.png> <./grijswaarden_bin_vb.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./grijswaarden_bin_gevuld_vb.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./Indicator_vb1.png> <./Indicator_vb2.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 <./HSV_vb.png> <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg> <./HSV_h.jpg> <./H
-SV_s.jpg> <./HSV_v.jpg>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <./algemene_treshold.jpg> <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-e
-ps-converted-to.pdf> <./hsvhist_v-eps-converted-to.pdf>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <./morf_open.png> <./morf_gesloten.png>]
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 267. on input li
-ne 267.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-267.
-
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.267 		\begin{landscape}
-                         
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./app.jpg> <./BloedklonterVoor.jpg> <./BloedklonterNa.jpg>]
-Overfull \hbox (23.90631pt too wide) in paragraph at lines 292--293
+[13]
+Overfull \hbox (23.90631pt too wide) in paragraph at lines 322--323
 [][]  
  []
 
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 293. on input li
-ne 293.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 323. on input li
+ne 323.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-293.
+323.
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -2261,7 +1949,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.293 		\end{landscape}
+l.323 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2270,7 +1958,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.293 		\end{landscape}
+l.323 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2282,15 +1970,15 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[14
 
 ]
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 293. on input li
-ne 293.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 323. on input li
+ne 323.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-293.
+323.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -2301,7 +1989,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.293 		\end{landscape}
+l.323 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2310,7 +1998,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.293 		\end{landscape}
+l.323 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2322,14 +2010,14 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] 
+[15] 
 AED: lastpage setting LastPage
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 309. on input li
-ne 309.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 339. on input li
+ne 339.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-309.
+339.
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -2339,7 +2027,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.309 \end{document}
+l.339 \end{document}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2348,7 +2036,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.309 \end{document}
+l.339 \end{document}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2360,47 +2048,44 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
  (TTverslag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
 Package rerunfilecheck Info: File `TTverslag.out' has not changed.
-(rerunfilecheck)             Checksum: 073445A34811BAA124B81236D2067540;1151.
+(rerunfilecheck)             Checksum: B414528A5181811AAA08180C1173EFFF;1132.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 20569 strings out of 493314
- 404382 string characters out of 3138864
- 571869 words of memory out of 3000000
- 23639 multiletter control sequences out of 15000+200000
+ 21826 strings out of 493314
+ 426906 string characters out of 3138855
+ 585476 words of memory out of 3000000
+ 24863 multiletter control sequences out of 15000+200000
  14653 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,85p,1077b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.19} has been referenced but does not exist, 
-replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0
-700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfsl1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfti1000.pfb>
-Output written on TTverslag.pdf (18 pages, 17562641 bytes).
+ 62i,18n,85p,1101b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/cm-super/sfsl1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/cm-super/sfti1000.pfb>
+Output written on TTverslag.pdf (16 pages, 17690320 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
