@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  25 OCT 2018 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  27 OCT 2018 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,13 +1036,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<kulakLogo.png, id=43, 245.718pt x 56.8524pt>
+<kulakLogo.png, id=71, 245.718pt x 56.8524pt>
 File: kulakLogo.png Graphic file (type png)
  <use kulakLogo.png>
 Package pdftex.def Info: kulakLogo.png used on input line 19.
 (pdftex.def)             Requested size: 184.46051pt x 42.67912pt.
 
-<kuleuvenSedes.pdf, id=45, 349.305pt x 596.2275pt>
+<kuleuvenSedes.pdf, id=73, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
  <use kuleuvenSedes.pdf>
 Package pdftex.def Info: kuleuvenSedes.pdf used on input line 19.
@@ -1060,45 +1060,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<Ruis_afbeelding.png, id=47, 1133.23375pt x 705.63625pt>
+<Ruis_afbeelding.png, id=75, 1133.23375pt x 705.63625pt>
 File: Ruis_afbeelding.png Graphic file (type png)
 
 <use Ruis_afbeelding.png>
 Package pdftex.def Info: Ruis_afbeelding.png used on input line 32.
 (pdftex.def)             Requested size: 455.24408pt x 283.46619pt.
+ <origineel_vb.png, id=79, 575.14874pt x 575.14874pt>
+File: origineel_vb.png Graphic file (type png)
 
-<Indicator_vb1.png, id=51, 675.52374pt x 685.56125pt>
-File: Indicator_vb1.png Graphic file (type png)
- <use Indicator_vb1.png>
-Package pdftex.def Info: Indicator_vb1.png used on input line 42.
-(pdftex.def)             Requested size: 213.39566pt x 216.55966pt.
+<use origineel_vb.png>
+Package pdftex.def Info: origineel_vb.png used on input line 43.
+(pdftex.def)             Requested size: 227.62445pt x 227.62204pt.
+ <grijswaarden_vb.png, id=80, 549.55313pt x 539.01375pt>
+File: grijswaarden_vb.png Graphic file (type png)
 
-<Indicator_vb2.png, id=52, 697.60625pt x 707.64375pt>
-File: Indicator_vb2.png Graphic file (type png)
- <use Indicator_vb2.png>
-Package pdftex.def Info: Indicator_vb2.png used on input line 44.
-(pdftex.def)             Requested size: 213.39566pt x 216.46269pt.
+<use grijswaarden_vb.png>
+Package pdftex.def Info: grijswaarden_vb.png used on input line 44.
+(pdftex.def)             Requested size: 232.07695pt x 227.62204pt.
+
+Overfull \hbox (4.45732pt too wide) in paragraph at lines 43--45
+ [][][][] 
+ []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/
 robin/Library/texmf/tex/latex/kulak/kulakLogo.png> </Users/robin/Library/texmf/
 tex/latex/kulak/kuleuvenSedes.pdf> <./Ruis_afbeelding.png>]
-<HSV_vb.png, id=74, 431.6125pt x 296.10625pt>
-File: HSV_vb.png Graphic file (type png)
- <use HSV_vb.png>
-Package pdftex.def Info: HSV_vb.png used on input line 51.
-(pdftex.def)             Requested size: 431.61143pt x 296.10551pt.
+<GetBestTreshold_vb_aangeduid.png, id=101, 650.43pt x 531.9072pt>
+File: GetBestTreshold_vb_aangeduid.png Graphic file (type png)
 
-Overfull \hbox (11.84921pt too wide) in paragraph at lines 56--59
-\T1/cmr/m/n/10 op de bloed-klon-ter te be-re-ke-nen. Dit is niet veel meer dan 
-de ver-hou-ding $\OML/cmm/m/it/10 indicatorpixels=bloedklonterpixels$\T1/cmr/m/
-n/10 . 
- []
+<use GetBestTreshold_vb_aangeduid.png>
+Package pdftex.def Info: GetBestTreshold_vb_aangeduid.png used on input line 52
+.
+(pdftex.def)             Requested size: 386.96024pt x 316.45218pt.
 
+<grijswaarden_bin_vb.png, id=102, 552.56438pt x 534.99875pt>
+File: grijswaarden_bin_vb.png Graphic file (type png)
+
+<use grijswaarden_bin_vb.png>
+Package pdftex.def Info: grijswaarden_bin_vb.png used on input line 59.
+(pdftex.def)             Requested size: 318.66946pt x 308.5362pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 59.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 64.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
@@ -1107,45 +1113,220 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./Indicator_vb1.png> <./Indicator_vb2.png> <./HSV_vb.png (PNG copy)>]
+[2 <./origineel_vb.png> <./grijswaarden_vb.png> <./GetBestTreshold_vb_aangeduid
+.png>] <grijswaarden_bin_gevuld_vb.png, id=116, 621.32124pt x 606.265pt>
+File: grijswaarden_bin_gevuld_vb.png Graphic file (type png)
+
+<use grijswaarden_bin_gevuld_vb.png>
+Package pdftex.def Info: grijswaarden_bin_gevuld_vb.png used on input line 70.
+(pdftex.def)             Requested size: 318.66946pt x 310.94872pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 75.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [3 <./grijswaarden_bin_vb.png>] <ruisvrij_vb.png, id=128, 606.265pt x 603.2537
+5pt>
+File: ruisvrij_vb.png Graphic file (type png)
+
+<use ruisvrij_vb.png>
+Package pdftex.def Info: ruisvrij_vb.png used on input line 81.
+(pdftex.def)             Requested size: 227.62204pt x 226.49574pt.
+ <ruisvrij_kleur_vb.png, id=129, 602.25pt x 607.26875pt>
+File: ruisvrij_kleur_vb.png Graphic file (type png)
+
+<use ruisvrij_kleur_vb.png>
+Package pdftex.def Info: ruisvrij_kleur_vb.png used on input line 82.
+(pdftex.def)             Requested size: 227.62204pt x 229.52286pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 87.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [4 <./grijswaarden_bin_gevuld_vb.png>] <Indicator_vb1.png, id=141, 675.52374pt
+ x 685.56125pt>
+File: Indicator_vb1.png Graphic file (type png)
+
+<use Indicator_vb1.png>
+Package pdftex.def Info: Indicator_vb1.png used on input line 93.
+(pdftex.def)             Requested size: 213.39566pt x 216.55966pt.
+ <Indicator_vb2.png, id=142, 697.60625pt x 707.64375pt>
+File: Indicator_vb2.png Graphic file (type png)
+
+<use Indicator_vb2.png>
+Package pdftex.def Info: Indicator_vb2.png used on input line 95.
+(pdftex.def)             Requested size: 213.39566pt x 216.46269pt.
+ <HSV_vb.png, id=143, 1284.8pt x 1027.84pt>
+File: HSV_vb.png Graphic file (type png)
+
+<use HSV_vb.png>
+Package pdftex.def Info: HSV_vb.png used on input line 102.
+(pdftex.def)             Requested size: 318.66946pt x 254.93619pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 106.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [5 <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.png>] <RGB_r.jpg, id=160, 1122.192
+5pt x 1033.8625pt>
+File: RGB_r.jpg Graphic file (type jpg)
+ <use RGB_r.jpg>
+Package pdftex.def Info: RGB_r.jpg used on input line 113.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_g.jpg, id=161, 1122.1925pt x 1033.8625pt>
+File: RGB_g.jpg Graphic file (type jpg)
+ <use RGB_g.jpg>
+Package pdftex.def Info: RGB_g.jpg used on input line 115.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_b.jpg, id=162, 1122.1925pt x 1033.8625pt>
+File: RGB_b.jpg Graphic file (type jpg)
+ <use RGB_b.jpg>
+Package pdftex.def Info: RGB_b.jpg used on input line 117.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 121.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [6 <./Indicator_vb1.png> <./Indicator_vb2.png> <./HSV_vb.png>] <HSV_h.jpg, id=
+173, 1122.1925pt x 1033.8625pt>
+File: HSV_h.jpg Graphic file (type jpg)
+ <use HSV_h.jpg>
+Package pdftex.def Info: HSV_h.jpg used on input line 125.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_s.jpg, id=174, 1122.1925pt x 1033.8625pt>
+File: HSV_s.jpg Graphic file (type jpg)
+ <use HSV_s.jpg>
+Package pdftex.def Info: HSV_s.jpg used on input line 127.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_v.jpg, id=175, 1122.1925pt x 1033.8625pt>
+File: HSV_v.jpg Graphic file (type jpg)
+ <use HSV_v.jpg>
+Package pdftex.def Info: HSV_v.jpg used on input line 129.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<algemene_treshold.jpg, id=176, 1100.11pt x 1003.75pt>
+File: algemene_treshold.jpg Graphic file (type jpg)
+
+<use algemene_treshold.jpg>
+Package pdftex.def Info: algemene_treshold.jpg used on input line 140.
+(pdftex.def)             Requested size: 318.66946pt x 290.7584pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 145.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [7 <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg> <./HSV_h.jpg> <./HSV_s.jpg> <./HS
+V_v.jpg>]
+Package epstopdf Info: Source file: <hsvhist_h.eps>
+(epstopdf)                    date: 2018-10-27 13:55:44
+(epstopdf)                    size: 21378 bytes
+(epstopdf)             Output file: <hsvhist_h-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:29
+(epstopdf)                    size: 9877 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_h-eps-converted-to
+.pdf hsvhist_h.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_h-eps-converted-to.pdf, id=194, 562.1pt x 421.575pt>
+File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_h-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf used on input line 154.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+Package epstopdf Info: Source file: <hsvhist_s.eps>
+(epstopdf)                    date: 2018-10-27 13:56:06
+(epstopdf)                    size: 22040 bytes
+(epstopdf)             Output file: <hsvhist_s-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:30
+(epstopdf)                    size: 10079 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_s-eps-converted-to
+.pdf hsvhist_s.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_s-eps-converted-to.pdf, id=195, 562.1pt x 421.575pt>
+File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_s-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf used on input line 156.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+Package epstopdf Info: Source file: <hsvhist_v.eps>
+(epstopdf)                    date: 2018-10-27 13:56:23
+(epstopdf)                    size: 22436 bytes
+(epstopdf)             Output file: <hsvhist_v-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:30
+(epstopdf)                    size: 10026 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_v-eps-converted-to
+.pdf hsvhist_v.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_v-eps-converted-to.pdf, id=196, 562.1pt x 421.575pt>
+File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_v-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf used on input line 158.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 163.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+ [8 <./algemene_treshold.jpg>] <morf_open.png, id=205, 256.96pt x 256.96pt>
+File: morf_open.png Graphic file (type png)
+ <use morf_open.png>
+Package pdftex.def Info: morf_open.png used on input line 166.
+(pdftex.def)             Requested size: 213.39566pt x 213.39828pt.
+
+<morf_gesloten.png, id=206, 256.96pt x 256.96pt>
+File: morf_gesloten.png Graphic file (type png)
+ <use morf_gesloten.png>
+Package pdftex.def Info: morf_gesloten.png used on input line 168.
+(pdftex.def)             Requested size: 213.39566pt x 213.39828pt.
+
 
 AED: lastpage setting LastPage
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 64.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 180.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
- [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+ [9 <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-eps-converted-to.pdf> <./hs
+vhist_v-eps-converted-to.pdf> <./morf_open.png> <./morf_gesloten.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (./oplossing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `oplossing.out' has not changed.
-(rerunfilecheck)             Checksum: 8816E425F3605A3964C690F3C6A014B5;198.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+(rerunfilecheck)             Checksum: CC02E3C1C3694EA17F4E729A1A34B59D;775.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
- 18689 strings out of 492995
- 361855 string characters out of 6132704
- 425588 words of memory out of 5000000
- 21896 multiletter control sequences out of 15000+600000
- 12293 words of font info for 29 fonts, out of 8000000 for 9000
+ 18855 strings out of 492995
+ 364902 string characters out of 6132704
+ 428130 words of memory out of 5000000
+ 21991 multiletter control sequences out of 15000+600000
+ 13069 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,80p,1031b,1035s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,80p,1073b,1035s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on oplossing.pdf (3 pages, 10350928 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on oplossing.pdf (9 pages, 17094636 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,5 @@
 function [treshold] = getBestTreshold (grayIm, fromElement)
+    %imhist(grayIm)
     [counts,binLocations] = imhist(grayIm);
     %set(gca,'YScale','log');
 

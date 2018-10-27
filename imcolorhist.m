@@ -6,5 +6,9 @@ function [data] = imcolorhist(image, mask)
        figure
        data = col(mask);
        hist(data, bins);
+       
+       ylabel('Aantal pixels onder mask')
+       xlabel('Kleurwaarde')
+       title(strcat('Histogram van de',{' '}, num2str(i), 'e kleurwaarde'))
     end
 end
