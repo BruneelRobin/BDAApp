@@ -6,7 +6,7 @@
 \usepackage{subfig}
 \usepackage{float}
 % style
-\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
+%\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
 \usepackage{color}
 
 % gantt
@@ -64,11 +64,9 @@
 	\newline
 	\newline
 	\section*{Inleiding}
-		Beroertes zijn in onze westerse samenleving de derde grootste doodsoorzaak, na het hartinfarct en kanker. Wereldwijd kapen ze zelfs de tweede plaats weg van meest frequente doodsoorzaak. Dit is te zien in het histogram in Figuur \ref{figuur doodsoorzaken} In België komt een beroerte jaarlijks 25000 keer voor en in 15\% van de gevallen overlijdt de patiënt. Een ischemische beroerte ontstaat als gevolg van een bloedklonter die blijft steken in een hersenbloedvat.	
-		Deze klonter moet men zo snel mogelijk verwijderen dit kan met behulp van een geneesmiddel die de klonter oplost of door middel van mechanische verwijdering. Door deze mechanische verwijdering kan men de bloedklonter verder analyseren in het labo om een duidelijker beeld te krijgen.
-		\newline
-		Om het aantal slachtoffers aan beroertes te doen slinken, wordt er tegenwoordig veel onderzoek gedaan naar bloedklonters. Bij dit soort onderzoek worden foto's getrokken van de bloedklonters en deze worden bijna volledig manueel geanalyseerd. Deze manier van onderzoeken is erg tijdrovend. Er is ons dan ook gevraagd om een app te ontwikkelen die de analyse van de foto’s volledig automatisch kan uitvoeren.
-		\newline
+		Beroertes zijn in onze westerse samenleving na hartinfarcten en kanker de derde grootste doodsoorzaak. Op wereldvlak kapen ze zelfs de tweede plaats weg. Dit is te zien in het histogram op Figuur \ref{figuur doodsoorzaken}. In België komen er jaarlijks 25000 beroertes voor. In 15\% van die gevallen overlijdt de patiënt. Een ischemische beroerte ontstaat nadat een bloedklonter in een hersenbloedvat blijft steken.
+		Gewoonlijk dient men een middel toe die deze klonter oplost, maar indien dit niet gebeurt verwijdert men deze manueel. In dat laatste geval kan men de bloedklonter gebruiken voor verdere analyse in het labo.\\
+		Om het aantal slachtoffers aan beroertes te doen slinken, wordt er tegenwoordig veel onderzoek gedaan naar bloedklonters. Bij dit soort onderzoek probeert men de samenstelling van de bloedklonters te analyseren. Hiervoor worden afbeeldingen gemaakt van met indicator gekleurde bloedklonters en worden deze bijna volledig manueel geanalyseerd. Het manueel analyseren is erg tijdrovend op grote schaal. Er is ons dan ook gevraagd om een app te ontwikkelen die de analyse van de afbeeldingen kan automatiseren.\\
 		In dit verslag gaan we eerst in op wat de klant specifiek van ons verwacht en aan welke specificaties ons ontwerp moet voldoen. Hierna bespreken we ons design en lichten we het toe. Verder bespreken we ook enkele van onze voorlopige resultaten. Ten slotte wordt er nog een blik geworpen naar de vakken uit eerste drie semesters die ons hierbij geholpen hebben.
 
 		\begin{figure}[h]
@@ -84,24 +82,21 @@
 	\newpage
 		
 	\section{Klantenvereisten}
-		De klant verwacht een gebruiksvriendelijke app waarbij hij een foto kan ingeven en dat deze automatisch bewerkt wordt. De foto moet  worden bijgesneden en de achtergrond moet verwijderd worden. Daarnaast is het de bedoeling om de samenstelling van de bloedklonter te analyseren. Dit gebeurt door een hoeveelheid kleur in de bloedklonter te kwantificeren. 
+		De klant verwacht een gebruiksvriendelijke app waarbij hij een afbeelding kan invoegen zodat deze automatisch verwerkt wordt. Dit houdt in dat de foto bijgesneden en de achtergrond verwijderd moet worden. Daarnaast is het de bedoeling om de samenstelling van de bloedklonter te analyseren aan de hand van de aangebrachte indicator.
 	
 	\section{Ontwerpspecificatie}
-		De klant wil dat een afbeelding van een bloedklonter eerst bewerkt en daarna geanalyseerd wordt op een volledig automatische manier.
-		
+		De klant wil dat een afbeelding van een bloedklonter automatisch bewerkt en daarna geanalyseerd wordt.\\
 		Het bewerken van de afbeelding houdt twee dingen in. Eerst en vooral moet de afbeelding zodanig bijgesneden worden dat de volledige bloedklonter erop staat. Hierbij mogen we de randen echter niet te breed nemen, aangezien er dan nuttige geheugenruimte verspild wordt. 
-		Naast het bijsnijden, moet de achtergrond ook verwijderd worden. Dit betekent dat alle pixels die niet tot de bloedklonter behoren wit moeten gekleurd worden. Indien bij deze stap te veel fouten gemaakt worden, zullen de resultaten van de kleuranalyse een vertekend beeld van de realiteit weergeven.
-		
-		Na het prepareren van de foto, moet deze ook volledig automatisch geanalyseerd worden. Hierbij moet een percentage aan gekleurde pixels geteld worden. Er zijn twee soorten kleuringen die toegepast kunnen worden. Deze zijn beide te zien in Figuur \ref{figuur indicators}. De app moet in allebei de gevallen op een accurate manier onderscheid kunnen maken tussen de eiwitten die gedetecteerd moeten worden (met een specifieke kleur) en de rest van de bloedklonter.
-		
-		Dit alles moet samengegoten worden in een visuele en gebruiksvriendelijke app. Dit wil zeggen dat de app gemakkelijk te installeren en te gebruiken is en dat de gebruiker ervan gemakkelijk verschillende afbeeldingen van de bloedklonter kan oproepen. Enkele voorbeelden zijn: de originele afbeelding, de bewerkte afbeelding, enkel het eiwit dat gedetecteerd moet worden, alles behalve het eiwit dat gedetecteerd moet worden, de bloedklonter waarbij het eiwit in een fellere kleur wordt weergegeven.	
+		Naast het bijsnijden, moet ook de achtergrond verwijderd worden. Dit betekent dat alle pixels die niet tot de bloedklonter behoren wit gekleurd worden. Indien dit niet goed gebeurt, kunnen de resultaten van de kleurenanalyse namelijk vertekend zijn.\\
+		In de kleurenanalyse moet het percentage aan met indicator gekleurde pixels geteld worden. Voor dit project moeten we slechts twee soorten kleuringen analyseren. Een voorbeeld van deze is te zien in Figuur \ref{figuur indicators}. In beide gevallen moet de app op een accurate manier onderscheid kunnen maken tussen de eiwitten die gedetecteerd moeten worden en de rest van de bloedklonter. \\
+		Dit alles moet samengegoten worden in een visuele en gebruiksvriendelijke app. Dit wil zeggen dat de app makkelijk te installeren en te gebruiken is. De gebruiker moet ook een overzicht van de verschillende afbeeldingen van de bloedklonter kunnen terugroepen. Dit overzicht bestaat uit de originele afbeelding, de afbeelding zonder achtergrond en de afbeelding waarbij de indicatorpixels zijn aangeduid. Zo kunnen mogelijke fouten snel gedetecteerd worden. Indien gewenst kan deze app nog heel wat extra functionaliteiten uitvoeren zoals het opslaan van deze afbeeldingen, het wegschrijven van alle data in een csv\footnote{Een csv (Comma Separated Values) bestand is een tekstbestand die als tabel ingelezen kan worden. Het kan eenvoudig in excel geopend worden voor verdere analyse.} bestand.
 	
 	\section{Onze oplossing}
 
 		\subsection{Achtergrondverwijdering}
 			Het eerste deelprobleem van ons project is het verwijderen van de achtergrond van de bloedklonters. Op de afbeeldingen is er heel wat vuiligheid te vinden. Voorbeelden hiervan zijn luchtbellen of kleine verkleuringen naast de bloedklonter zoals men ziet op de Figuur \ref{figuur achtergrondverwijdering}. Hieronder zullen we verschillende operaties beschrijven om de grootste klonters te lokaliseren en alles wat geen klonter is te verwijderen. Dit leidt tot een ruisvrije afbeelding.
 
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
 			\includegraphics[width = 0.7\textwidth]{Ruis_afbeelding.png}	
 			\caption{In de rechterbovenhoek zien we luchtbellen en in de onderste cirkel zien we een verkleuring die geen deel uitmaakt van een bloedklonter.}
@@ -109,9 +104,9 @@
 		\end{figure}
 
 	\subsubsection{Bepalen van de beste threshold}
-		Wanneer we de grijswaarden van de afbeelding berekenen, zien we een duidelijk verschil tussen de achtergrond (eerder wit) en de bloedklonter (eerder grijs) zoals we zien op Figuur \ref{figuur beste_threshold}. Wanneer we een histogram van deze grijswaarden opstellen, vinden we ook dat er een lokaal minimum is tussen het grijs en het wit. Dit zien we duidelijk op het histogram in Figuur \ref{figuur graf1}. Wanneer we dit minimum berekenen vinden we de theoretisch optimale threshold, de waarde om een bloedklonterpixel van een achtergrondpixel te onderscheiden. Wanneer we die threshold toepassen en een binaire representatie zoals in Figuur \ref{figuur foto_bin} vormen, zien we duidelijk dat dit inderdaad een goede threshold is.
+		Wanneer we de grijswaarden van de afbeelding berekenen, zien we een duidelijk verschil tussen de achtergrond (eerder wit) en de bloedklonter (eerder grijs) zoals we zien op Figuur \ref{figuur beste_threshold}. Wanneer we een histogram van deze grijswaarden opstellen, vinden we ook dat er een lokaal minimum is tussen het grijs en het wit. Dit zien we duidelijk op het histogram in Figuur \ref{figuur graf1}. Wanneer we dit minimum berekenen vinden we de theoretisch optimale threshold, de grijswaarde om een bloedklonterpixel van een achtergrondpixel te onderscheiden. Wanneer we die threshold toepassen en een binaire representatie zoals in Figuur \ref{figuur foto_bin} vormen, zien we duidelijk dat dit inderdaad een goede threshold is.
 
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\subfloat[]{{\includegraphics[width=6cm]{origineel_vb}}}
 		\qquad
@@ -121,7 +116,7 @@
 		\label{figuur beste_threshold}
 	\end{figure}
 
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.85\textwidth]{GetBestthreshold_vb_aangeduid.png}
 		
@@ -129,7 +124,7 @@
 		\label{figuur graf1}
 	\end{figure}
 
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\textwidth]{grijswaarden_bin_vb}
 		\caption{Op deze binaire representatie zijn de bloedklonters duidelijk te zien.}
@@ -139,7 +134,7 @@
 	\subsubsection{Lokaliseren van de bloedklonters}
 		Eenmaal deze binaire representatie gevonden is, lokaliseren we de grootste klonters om de ruis te verwijderen. Hiervoor zullen we eerst alle holtes in de klonters opvullen door alle ingesloten pixels\footnote{Een ingesloten pixel is een zwarte pixel die onmogelijk de achtergrond van de afbeelding kunnen bereiken zonder over witte pixels te gaan} wit te maken. Het resultaat is te zien in Figuur \ref{figuur lok_bloed}. De klonters zijn nu nog veel duidelijker zichtbaar, waardoor we kunnen overgaan naar de effectieve ruisfilter.
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width = 0.7\textwidth]{grijswaarden_bin_gevuld_vb}
 		\caption{Alle gaatjes zijn nu opgevuld. We onderscheiden nu enkele grote bloedklonters en nog ruis. Op basis van de grootte van de gebieden, kunnen we de ruis nu verwijderen.}
@@ -261,32 +256,32 @@
 	
 
 	\section{Voorlopige resultaten}		
-		Op dit moment in het ontwikkelingsproces kunnen we al effectief de foto gebruiksklaar maken voor de analyse ervan. Dit houdt in dat we alle pixels die niet tot de bloedklonter behoren wit kunnen maken en de afbeelding zodanig kunnen bijsnijden dat er geen overbodig geheugen ingenomen wordt door de afbeelding. In Figuur \ref{fig: voorna} wordt dit geïllustreerd.\\
+		Momenteel kunnen we een afbeelding gebruiksklaar maken voor de analyse ervan. Dit houdt in dat we alle pixels die niet tot de bloedklonter behoren wit kunnen maken en de afbeelding zodanig bijsnijden dat er geen overbodig geheugen door de afbeelding ingenomen wordt. In Figuur \ref{fig: voorna} wordt dit geïllustreerd.\\
 	
 		\begin{figure}[H]
 		\centering
 		\subfloat[Afbeelding van bloedklonter voor die bewerkt wordt]{{\includegraphics[width=7cm]{BloedklonterVoor.jpg}}}
 		\qquad
-		\subfloat[Bijgesneden afbeelding van de Bloedklonter met witte achtergrond ]{{\includegraphics[width=7cm]{BloedklonterNa.jpg}}}
+		\subfloat[Bijgesneden afbeelding van de bloedklonter met witte achtergrond ]{{\includegraphics[width=7cm]{BloedklonterNa.jpg}}}
 		
 		\caption{Illustratie van hoe we de afbeelding gebruiksklaar maken voor de analyse ervan}
 		\label{fig: voorna}
 		\end{figure}
 		
 		
-		Momenteel zijn we bezig met de implementatie van de kleurendetectie. We hebben hier al veel vooruitgang geboekt, maar de hij staat nog niet volledig op punt. Ook hebben we al even geëxperimenteerd met de app designer van MATLAB. Hier willen we namelijk onze gebruiksvriendelijke applicatie in programmeren.
+		Daarnaast zijn we bezig met de implementatie van de kleurendetectie. We hebben hier al veel vooruitgang geboekt, maar de hij staat nog niet volledig op punt. Ook hebben we al even geëxperimenteerd met de 'app designer' van MATLAB. Hier willen we namelijk onze gebruiksvriendelijke applicatie in programmeren.
 		Op basis van wat we nu al bereikt hebben, denken we dat dit project een succes kan worden en dat men het effectief zal kunnen gebruiken in het onderzoek naar de samenstelling van bloedklonters.
 	
 	\newpage
 	\section{Verantwoordelijkheden en taakverdeling}		
 		In onze groep hebben we ervoor gekozen om Robin aan te stellen als projectleider. Hij verdeelt elke week de taken en heeft het laatste woord bij discussies. 
-		Voor de verslagen en de eindpresentatie is Marthe verantwoordelijk. Zij is de eindredactrice van alle verslagen. We schrijven de verslagen uiteraard samen, maar het is haar taak ervoor te zorgen dat deze volledig en gestructureerd zijn en dat ze voor de deadline ingediend worden.\\
+		Voor de verslagen en de eindpresentatie is Marthe verantwoordelijk. Zij is de eindredactrice van alle verslagen. We schrijven deze uiteraard samen, maar het is haar taak ervoor te zorgen dat deze volledig en gestructureerd zijn en dat ze voor de deadline ingediend worden.\\
 		Voor de implementatie van de code zijn we elk verantwoordelijk voor ons eigen deel. Zo wordt het verwijderen van de ruis en het bijsnijden van de afbeelding door Toon geleid, de kleurdetectie door Robin en de implementatie van de app door Marthe.
 		
-		Helemaal achteraan dit verslag voegden we ook een Gantt-chart toe. Hierin staan enkele belangrijke deadlines vermeld en onze voorlopige planning. We hebben de project opgesplitst in vier verschillende taken die we elk ingepland hebben zoals afgebeeld. Ook de tijd die we rekenen voor het tussentijds - en het finaal verslag, zijn af te lezen in de chart.
+		Helemaal achteraan dit verslag voegden we ook een Gantt-chart toe. Hierin staan enkele belangrijke deadlines vermeld en onze voorlopige planning. We hebben het project opgesplitst in vier verschillende taken die we elk ingepland hebben zoals afgebeeld. Ook de tijd die we rekenen voor het tussentijds - en het finaal verslag, zijn af te lezen in de chart.
 		
 	\section{Integratie van vakken}
-		Om dit probleem op te lossen hebben we gebruik gemaakt van MATLAB. Het is dan ook een meerwaarde dat we in het eerste semester het vak 'Beginselen van Programmeren' gehad hebben waardoor we sneller vertrouwd geraken met deze nieuwe programmeertaal. Daarnaast leren we in 'nummerieke wiskunde' ook werken met MATLAB. Om de verschillende thresholds te bepalen in ons programma, maken we ook gebruik van statistische analyse van de pixelwaarden. Het van 'Statistiek' draagt hier dus ook zijn steentje bij.
+		Om dit probleem op te lossen hebben we gebruik gemaakt van MATLAB. Het is dan ook een meerwaarde dat we in het eerste semester het vak 'Beginselen van Programmeren' gehad hebben om sneller vertrouwd te raken met deze nieuwe programmeertaal. Daarnaast leren we ook in 'nummerieke wiskunde' werken met MATLAB. Om de verschillende thresholds te bepalen in ons programma, maken we ook gebruik van en statistische analyse van de pixelwaarden. Het van 'Statistiek' draagt hier dus ook zijn steentje bij.
 	
 	\section{Besluit}	
 		Momenteel kunnen we besluiten dat we goed aan het vorderen zijn. Zoals eerder vermeld kunnen we de foto automatisch bijsnijden en de achtergrond ruisvrij maken. Onze focus ligt nu voornamelijk bij de implementatie van de kleurendetectie. Eénmaal deze ook op punt staat kunnen we beide programma's in de app steken en deze optimaliseren met de nadruk op gebruiksvriendelijkheid naar de klant toe. Verder houden we de klant op de hoogte over onze vooruitgang via onder andere dit verslag. 
