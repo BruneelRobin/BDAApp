@@ -9,6 +9,7 @@
 %\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,a4paper]{geometry}
 \usepackage{color}
 
+
 % gantt
 \usepackage{pgfgantt}
 \usepackage{lscape}
@@ -64,7 +65,7 @@
 	\newline
 	\newline
 	\section*{Inleiding}
-		Beroertes zijn in onze westerse samenleving na hartinfarcten en kanker de derde grootste doodsoorzaak. Op wereldvlak kapen ze zelfs de tweede plaats weg. Dit is te zien in het histogram op Figuur \ref{figuur doodsoorzaken}. In België komen er jaarlijks 25000 beroertes voor. In 15\% van die gevallen overlijdt de patiënt. Een ischemische beroerte ontstaat nadat een bloedklonter in een hersenbloedvat blijft steken.
+		Beroertes zijn in onze westerse samenleving na hartinfarcten en kanker de derde grootste doodsoorzaak. Op wereldvlak kapen ze zelfs de tweede plaats weg \cite{worldhealthorganization} . Dit is te zien in het histogram op Figuur \ref{figuur doodsoorzaken} . In België komen er jaarlijks 25000 beroertes voor. In 15\% van die gevallen overlijdt de patiënt. Een ischemische beroerte ontstaat nadat een bloedklonter in een hersenbloedvat blijft steken.
 		Gewoonlijk dient men een middel toe die deze klonter oplost, maar indien dit niet gebeurt verwijdert men deze manueel. In dat laatste geval kan men de bloedklonter gebruiken voor verdere analyse in het labo.\\
 		Om het aantal slachtoffers aan beroertes te doen slinken, wordt er tegenwoordig veel onderzoek gedaan naar bloedklonters. Bij dit soort onderzoek probeert men de samenstelling van de bloedklonters te analyseren. Hiervoor worden afbeeldingen gemaakt van met indicator gekleurde bloedklonters en worden deze bijna volledig manueel geanalyseerd. Het manueel analyseren is erg tijdrovend op grote schaal. Er is ons dan ook gevraagd om een app te ontwikkelen die de analyse van de afbeeldingen kan automatiseren.\\
 		In dit verslag gaan we eerst in op wat de klant specifiek van ons verwacht en aan welke specificaties ons ontwerp moet voldoen. Hierna bespreken we ons design en lichten we het toe. Verder bespreken we ook enkele van onze voorlopige resultaten. Ten slotte wordt er nog een blik geworpen naar de vakken uit eerste drie semesters die ons hierbij geholpen hebben.
@@ -92,7 +93,7 @@
 		Dit alles moet samengegoten worden in een visuele en gebruiksvriendelijke app. Dit wil zeggen dat de app makkelijk te installeren en te gebruiken is. De gebruiker moet ook een overzicht van de verschillende afbeeldingen van de bloedklonter kunnen terugroepen. Dit overzicht bestaat uit de originele afbeelding, de afbeelding zonder achtergrond en de afbeelding waarbij de indicatorpixels zijn aangeduid. Zo kunnen mogelijke fouten snel gedetecteerd worden. Indien gewenst kan deze app nog heel wat extra functionaliteiten uitvoeren zoals het opslaan van deze afbeeldingen, het wegschrijven van alle data in een csv\footnote{Een csv (Comma Separated Values) bestand is een tekstbestand die als tabel ingelezen kan worden. Het kan eenvoudig in excel geopend worden voor verdere analyse.} bestand.
 	
 	\section{Onze oplossing}
-
+	Om deze app te kunnen verwezenlijken, lossen we dit probleem op met behulp van MATLAB \cite{matlab}.
 		\subsection{Achtergrondverwijdering}
 			Het eerste deelprobleem van ons project is het verwijderen van de achtergrond van de bloedklonters. Op de afbeeldingen is er heel wat vuiligheid te vinden. Voorbeelden hiervan zijn luchtbellen of kleine verkleuringen naast de bloedklonter zoals men ziet op de Figuur \ref{figuur achtergrondverwijdering}. Hieronder zullen we verschillende operaties beschrijven om de grootste klonters te lokaliseren en alles wat geen klonter is te verwijderen. Dit leidt tot een ruisvrije afbeelding.
 
@@ -281,10 +282,16 @@
 		Helemaal achteraan dit verslag voegden we ook een Gantt-chart toe. Hierin staan enkele belangrijke deadlines vermeld en onze voorlopige planning. We hebben het project opgesplitst in vier verschillende taken die we elk ingepland hebben zoals afgebeeld. Ook de tijd die we rekenen voor het tussentijds - en het finaal verslag, zijn af te lezen in de chart.
 		
 	\section{Integratie van vakken}
-		Om dit probleem op te lossen hebben we gebruik gemaakt van MATLAB. Het is dan ook een meerwaarde dat we in het eerste semester het vak 'Beginselen van Programmeren' gehad hebben om sneller vertrouwd te raken met deze nieuwe programmeertaal. Daarnaast leren we ook in 'nummerieke wiskunde' werken met MATLAB. Om de verschillende thresholds te bepalen in ons programma, maken we ook gebruik van en statistische analyse van de pixelwaarden. Het van 'Statistiek' draagt hier dus ook zijn steentje bij.
+		Om dit probleem op te lossen, hebben we gebruik gemaakt van MATLAB. Het is dan ook een meerwaarde dat we in het eerste semester het vak 'Beginselen van Programmeren' gehad hebben om sneller vertrouwd te raken met deze nieuwe programmeertaal. Daarnaast leren we ook in 'nummerieke wiskunde' werken met MATLAB. Om de verschillende thresholds te bepalen in ons programma, maken we ook gebruik van en statistische analyse van de pixelwaarden. Het vak 'Statistiek' draagt hier dus ook zijn steentje bij.
 	
 	\section{Besluit}	
 		Momenteel kunnen we besluiten dat we goed aan het vorderen zijn. Zoals eerder vermeld kunnen we de foto automatisch bijsnijden en de achtergrond ruisvrij maken. Onze focus ligt nu voornamelijk bij de implementatie van de kleurendetectie. Eénmaal deze ook op punt staat kunnen we beide programma's in de app steken en deze optimaliseren met de nadruk op gebruiksvriendelijkheid naar de klant toe. Verder houden we de klant op de hoogte over onze vooruitgang via onder andere dit verslag. 
+		
+	\newpage
+	\bibliography{TTverslagbib}
+	\bibliographystyle{plain}
+	
+	
 	\newpage		
 	
 	
