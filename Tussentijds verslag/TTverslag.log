@@ -1,14 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  1 NOV 2018 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  1 NOV 2018 22:01
 entering extended mode
-**./TTverslag.tex
-(TTverslag.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**TTverslag.tex
+(./TTverslag.tex
 LaTeX2e <2017-04-15>
-Babel <3.13> and hyphenation patterns for 76 language(s) loaded.
-(C:\Users\Marthe\Documents\LaTeX\texmf\tex\latex\kulak\kulakarticle.cls
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/Users/robin/Library/texmf/tex/latex/kulak/kulakarticle.cls
 Document Class: kulakarticle 2016/10/17 Article class for KU Leuven
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,21 +25,21 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -77,29 +79,29 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen103
 \Hy@linkcounter=\count87
 \Hy@pagecounter=\count88
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count89
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -111,7 +113,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count90
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -136,25 +138,25 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count95
 \c@bookmark@seq@number=\count96
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titling\titling.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip44
 \thanksmargin=\skip45
 \droptitle=\skip46
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count97
 \mult@box=\box26
@@ -203,30 +205,31 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count106
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -240,39 +243,39 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
 \pgfutil@everybye=\toks15
 \pgfutil@tempdima=\dimen118
 \pgfutil@tempdimb=\dimen119
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box52
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks16
 \pgfkeys@temptoks=\toks17
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
 \pgfkeys@tmptoks=\toks18
 ))
 \pgf@x=\dimen120
@@ -285,69 +288,73 @@ x"
 \pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count106
-\c@pgf@countb=\count107
-\c@pgf@countc=\count108
-\c@pgf@countd=\count109
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
 \t@pgf@toka=\toks19
 \t@pgf@tokb=\toks20
 \t@pgf@tokc=\toks21
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count110
-\pgfsyssoftpath@bigbuffer@items=\count111
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
-\pgfmath@count=\count112
+\pgfmath@count=\count113
 \pgfmath@box=\box53
 \pgfmath@toks=\toks22
 \pgfmath@stack@operand=\toks23
 \pgfmath@stack@operation=\toks24
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count113
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count114
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen129
 \pgf@picmaxx=\dimen130
@@ -364,115 +371,123 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen141
 \pgf@zy=\dimen142
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen143
 \pgf@path@lasty=\dimen144
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen145
 \pgf@shorten@start@additional=\dimen146
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count114
+\pgf@picture@serial@count=\count115
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen147
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen148
 \pgf@pt@y=\dimen149
 \pgf@pt@temp=\dimen150
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen151
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen152
-\pgf@sys@shading@range@num=\count115
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+\pgf@sys@shading@range@num=\count116
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box57
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box58
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen153
 \pgf@nodesepend=\dimen154
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen155
 \pgffor@skip=\dimen156
 \pgffor@stack=\toks25
 \pgffor@toks=\toks26
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count116
+\pgf@plot@mark@count=\count117
 \pgfplotmarksize=\dimen157
 )
 \tikz@lastx=\dimen158
@@ -485,103 +500,103 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count117
-\tikznumberofchildren=\count118
-\tikznumberofcurrentchild=\count119
-\tikz@fig@count=\count120
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count121
-\pgfmatrixcurrentcolumn=\count122
-\pgf@matrix@numberofcolumns=\count123
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
 )
-\tikz@expandcount=\count124
+\tikz@expandcount=\count125
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryarrows.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.t
-ex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen164
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarydecorations.pathmorphing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarydecorations.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
-.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
 \pgfdecoratedcompleteddistance=\dimen165
 \pgfdecoratedremainingdistance=\dimen166
 \pgfdecoratedinputsegmentcompleteddistance=\dimen167
 \pgfdecoratedinputsegmentremainingdistance=\dimen168
 \pgf@decorate@distancetomove=\dimen169
-\pgf@decorate@repeatstate=\count125
+\pgf@decorate@repeatstate=\count126
 \pgfdecorationsegmentamplitude=\dimen170
 \pgfdecorationsegmentlength=\dimen171
 )
 \tikz@lib@dec@box=\box63
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
-ecorations.pathmorphing.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarybackgrounds.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
 \pgf@layerbox@background=\box64
 \pgf@layerboxsaved@background=\box65
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryfit.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshadows.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryfadings.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
-tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarypositioning.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip49
-\f@nch@O@elh=\skip50
-\f@nch@O@erh=\skip51
-\f@nch@O@olh=\skip52
-\f@nch@O@orh=\skip53
-\f@nch@O@elf=\skip54
-\f@nch@O@erf=\skip55
-\f@nch@O@olf=\skip56
-\f@nch@O@orf=\skip57
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks27
 \inpenc@posthook=\toks28
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -822,7 +837,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -863,7 +878,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -889,74 +904,60 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/09/18 3.13 The Babel package
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-dutch\dutch.ldf"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-dutch/dutch.ldf
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/09/18 3.13 Babel common definitions
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2017/09/18 3.13 Babel switching mechanism
-)
-\babel@savecnt=\count126
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count127
 \U@D=\dimen172
 )
 Package babel Info: Making " an active character on input line 132.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count127
-\calc@Bcount=\count128
+\calc@Acount=\count128
+\calc@Bcount=\count129
 \calc@Adimen=\dimen173
 \calc@Bdimen=\dimen174
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count129
+\calc@Ccount=\count130
 \calc@Cskip=\skip60
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen175
 \AM@pageheight=\dimen176
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box66
 \AM@global@opts=\toks29
 \AM@toc@title=\toks30
-\c@AM@survey=\count130
+\c@AM@survey=\count131
 \AM@templatesizebox=\box67
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen177
@@ -967,145 +968,157 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen182
 \caption@hangindent=\dimen183
 )
-\c@ContinuedFloat=\count131
+\c@ContinuedFloat=\count132
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count132
+\c@KVtest=\count133
 \sf@farskip=\skip61
 \sf@captopadj=\dimen184
 \sf@capskip=\skip62
 \sf@nearskip=\skip63
-\c@subfigure=\count133
-\c@subfigure@save=\count134
-\c@lofdepth=\count135
-\c@subtable=\count136
-\c@subtable@save=\count137
-\c@lotdepth=\count138
+\c@subfigure=\count134
+\c@subfigure@save=\count135
+\c@lofdepth=\count136
+\c@subtable=\count137
+\c@subtable@save=\count138
+\c@lotdepth=\count139
 \sf@top=\skip64
 \sf@bottom=\skip65
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count139
+\c@float@type=\count140
 \float@exts=\toks31
 \float@box=\box68
 \@float@everytoks=\toks32
 \@floatcapt=\box69
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgfgantt\pgfgantt.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarycalc.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarypatterns.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibrarypatterns.code
-.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshapes.geometric.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
-.geometric.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfcalendar.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfcalendar.code.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
+tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count140
+\pgfcalendarcurrentjulian=\count141
 ))
-\gtt@currentline=\count141
-\gtt@lasttitleline=\count142
-\gtt@currgrid=\count143
-\gtt@chartwidth=\count144
-\gtt@lasttitleslot=\count145
-\gtt@elementid=\count146
-\gtt@today@slot=\count147
-\gtt@startjulian=\count148
-\gtt@endjulian=\count149
-\gtt@calendar@slots=\count150
-\gtt@calendar@weeknumber=\count151
-\gtt@calendar@startofweek=\count152
-\gtt@left@slot=\count153
-\gtt@right@slot=\count154
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+\gtt@currentline=\count142
+\gtt@lasttitleline=\count143
+\gtt@currgrid=\count144
+\gtt@chartwidth=\count145
+\gtt@lasttitleslot=\count146
+\gtt@elementid=\count147
+\gtt@today@slot=\count148
+\gtt@startjulian=\count149
+\gtt@endjulian=\count150
+\gtt@calendar@slots=\count151
+\gtt@calendar@weeknumber=\count152
+\gtt@calendar@startofweek=\count153
+\gtt@left@slot=\count154
+\gtt@right@slot=\count155
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (TTverslag.aux)
+)
+(./TTverslag.aux)
 \openout1 = `TTverslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring OFF on input line 56.
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package hyperref Info: Link coloring OFF on input line 59.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
-(TTverslag.out) (TTverslag.out)
+(./TTverslag.out) (./TTverslag.out)
 \@outlinefile=\write4
 \openout4 = `TTverslag.out'.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
+\scratchcounter=\count157
 \scratchdimen=\dimen185
 \scratchbox=\box71
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\nofMPsegments=\count158
+\nofMParguments=\count159
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count159
+\MPscratchCnt=\count160
 \MPscratchDim=\dimen186
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
 \everyMPtoPDFconversion=\toks34
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 56.
+(lastpage)             ! on input line 59.
 
 ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
@@ -1113,134 +1126,89 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<voorblad.pdf, id=94, pagebox=cropbox, 614.295pt x 794.97pt>
-File: voorblad.pdf Graphic file (type pdf)
-<use voorblad.pdf>
-Package pdftex.def Info: voorblad.pdf  used on input line 57. on input line 57.
 
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 57.
+<voorblad.pdf, id=95, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
-<use voorblad.pdf>
-Package pdftex.def Info: voorblad.pdf  used on input line 57. on input line 57.
+ <use voorblad.pdf>
+Package pdftex.def Info: voorblad.pdf used on input line 60.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: voorblad.pdf Graphic file (type pdf)
 
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 57.
-<voorblad.pdf, id=97, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<use voorblad.pdf>
+Package pdftex.def Info: voorblad.pdf used on input line 60.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <voorblad.pdf, id=98, page=1, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
+
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 57.
+Package pdftex.def Info: voorblad.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: voorblad.pdf Graphic file (type pdf)
-<use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 57.
+ <use voorblad.pdf, page 1>
+Package pdftex.def Info: voorblad.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: voorblad.pdf Graphic file (type pdf)
+
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 57.
+Package pdftex.def Info: voorblad.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: voorblad.pdf Graphic file (type pdf)
-<use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 57.
+ <use voorblad.pdf, page 1>
+Package pdftex.def Info: voorblad.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: voorblad.pdf Graphic file (type pdf)
+
 <use voorblad.pdf, page 1>
-Package pdftex.def Info: voorblad.pdf , page1 used on input line 57. on input l
-ine 57.
-Package pdftex.def Info: Requested size: 597.78697pt x 773.60669pt on input lin
-e 57.
+Package pdftex.def Info: voorblad.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 
- <./voorblad.pdf{C:/Users/Marthe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
-map}>]
-<kulakLogo.pdf, id=115, pagebox=cropbox, 245.83241pt x 51.21533pt>
-File: kulakLogo.pdf Graphic file (type pdf)
-<use kulakLogo.pdf>
-Package pdftex.def Info: kulakLogo.pdf  used on input line 60. on input line 60
-.
-Package pdftex.def Info: Requested size: 204.85858pt x 42.67912pt on input line
- 60.
-<kuleuvenSedes.pdf, id=116, pagebox=cropbox, 349.305pt x 596.2275pt>
+ <./voorblad.pdf{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdft
+ex.map}>]
+<kulakLogo.png, id=116, 245.718pt x 56.8524pt>
+File: kulakLogo.png Graphic file (type png)
+ <use kulakLogo.png>
+Package pdftex.def Info: kulakLogo.png used on input line 63.
+(pdftex.def)             Requested size: 184.46051pt x 42.67912pt.
+
+<kuleuvenSedes.pdf, id=118, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 60. on input lin
-e 60.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-60.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 63.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 60.
+(Font)              <5> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 60.
+(Font)              <7> on input line 63.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
 LaTeX Warning: Citation `worldhealthorganization' on page 2 undefined on input 
-line 68.
+line 65.
 
-<top10doodsoorzaken.jpg, id=118, 443.40656pt x 292.84406pt>
-File: top10doodsoorzaken.jpg Graphic file (type jpg)
-<use top10doodsoorzaken.jpg>
-Package pdftex.def Info: top10doodsoorzaken.jpg  used on input line 75. on inpu
-t line 75.
-Package pdftex.def Info: Requested size: 318.66946pt x 210.47667pt on input lin
-e 75.
-[2 <C:/Users/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/Us
-ers/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kuleuvenSedes.pdf> <./top10doo
-dsoorzaken.jpg>] (TTverslag.toc)
+<top10doodsoorzaken.png, id=120, 443.40656pt x 292.84406pt>
+File: top10doodsoorzaken.png Graphic file (type png)
+
+<use top10doodsoorzaken.png>
+Package pdftex.def Info: top10doodsoorzaken.png used on input line 72.
+(pdftex.def)             Requested size: 318.66946pt x 210.47667pt.
+ [2 </Users/robin/Library/texmf/tex/latex/kulak/kulakLogo.png> </Users/robin/Li
+brary/texmf/tex/latex/kulak/kuleuvenSedes.pdf> <./top10doodsoorzaken.png>] (./T
+Tverslag.toc)
 \tf@toc=\write5
 \openout5 = `TTverslag.toc'.
 
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 83. on input lin
-e 83.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-83.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 81.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1251,7 +1219,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.83 	\newpage
+l.81 	\newpage
               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1260,7 +1228,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.83 	\newpage
+l.81 	\newpage
               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1272,23 +1240,17 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-
-LaTeX Warning: Citation `matlab' on page 4 undefined on input line 96.
-
-<Ruis_afbeelding.png, id=165, 1133.23375pt x 705.63625pt>
+[3] <Ruis_afbeelding.png, id=164, 1133.23375pt x 705.63625pt>
 File: Ruis_afbeelding.png Graphic file (type png)
+
 <use Ruis_afbeelding.png>
-Package pdftex.def Info: Ruis_afbeelding.png  used on input line 102. on input 
-line 102.
-Package pdftex.def Info: Requested size: 318.66946pt x 198.4274pt on input line
- 102.
+Package pdftex.def Info: Ruis_afbeelding.png used on input line 101.
+(pdftex.def)             Requested size: 318.66946pt x 198.4274pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 106. on input li
-ne 106.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-106.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 105.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1298,7 +1260,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.106 
+l.105 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1307,7 +1269,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.106 
+l.105 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1319,34 +1281,31 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
-<origineel_vb.png, id=180, 575.14874pt x 575.14874pt>
+[4] <origineel_vb.png, id=179, 575.14874pt x 575.14874pt>
 File: origineel_vb.png Graphic file (type png)
+
 <use origineel_vb.png>
-Package pdftex.def Info: origineel_vb.png  used on input line 112. on input lin
-e 112.
-Package pdftex.def Info: Requested size: 170.71652pt x 170.71176pt on input lin
-e 112.
-<grijswaarden_vb.png, id=181, 549.55313pt x 539.01375pt>
+Package pdftex.def Info: origineel_vb.png used on input line 111.
+(pdftex.def)             Requested size: 170.71652pt x 170.71176pt.
+
+<grijswaarden_vb.png, id=180, 549.55313pt x 539.01375pt>
 File: grijswaarden_vb.png Graphic file (type png)
+
 <use grijswaarden_vb.png>
-Package pdftex.def Info: grijswaarden_vb.png  used on input line 114. on input 
-line 114.
-Package pdftex.def Info: Requested size: 170.71652pt x 167.43796pt on input lin
-e 114.
-<GetBestthreshold_vb_aangeduid.png, id=182, 650.43pt x 531.9072pt>
+Package pdftex.def Info: grijswaarden_vb.png used on input line 113.
+(pdftex.def)             Requested size: 170.71652pt x 167.43796pt.
+
+<GetBestthreshold_vb_aangeduid.png, id=181, 650.43pt x 531.9072pt>
 File: GetBestthreshold_vb_aangeduid.png Graphic file (type png)
+
 <use GetBestthreshold_vb_aangeduid.png>
-Package pdftex.def Info: GetBestthreshold_vb_aangeduid.png  used on input line 
-122. on input line 122.
-Package pdftex.def Info: Requested size: 386.96024pt x 316.45218pt on input lin
-e 122.
+Package pdftex.def Info: GetBestthreshold_vb_aangeduid.png used on input line 1
+21.
+(pdftex.def)             Requested size: 386.96024pt x 316.45218pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 127. on input li
-ne 127.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-127.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 126.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1357,7 +1316,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.127 
+l.126 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1366,7 +1325,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.127 
+l.126 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1381,17 +1340,14 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [5 <./Ruis_afbeelding.png> <./origineel_vb.png> <./grijswaarden_vb.png>]
 <grijswaarden_bin_vb.png, id=196, 552.56438pt x 534.99875pt>
 File: grijswaarden_bin_vb.png Graphic file (type png)
+
 <use grijswaarden_bin_vb.png>
-Package pdftex.def Info: grijswaarden_bin_vb.png  used on input line 130. on in
-put line 130.
-Package pdftex.def Info: Requested size: 318.66946pt x 308.5362pt on input line
- 130.
+Package pdftex.def Info: grijswaarden_bin_vb.png used on input line 129.
+(pdftex.def)             Requested size: 318.66946pt x 308.5362pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 134. on input li
-ne 134.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-134.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 133.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1402,7 +1358,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 
+l.133 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1411,7 +1367,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.134 
+l.133 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1426,17 +1382,15 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [6 <./GetBestthreshold_vb_aangeduid.png>]
 <grijswaarden_bin_gevuld_vb.png, id=205, 621.32124pt x 606.265pt>
 File: grijswaarden_bin_gevuld_vb.png Graphic file (type png)
+
 <use grijswaarden_bin_gevuld_vb.png>
-Package pdftex.def Info: grijswaarden_bin_gevuld_vb.png  used on input line 140
-. on input line 140.
-Package pdftex.def Info: Requested size: 318.66946pt x 310.94872pt on input lin
-e 140.
+Package pdftex.def Info: grijswaarden_bin_gevuld_vb.png used on input line 139.
+
+(pdftex.def)             Requested size: 318.66946pt x 310.94872pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 144. on input li
-ne 144.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-144.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 143.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1447,7 +1401,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.144 
+l.143 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1456,7 +1410,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.144 
+l.143 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1471,28 +1425,21 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [7 <./grijswaarden_bin_vb.png>]
 <ruisvrij_vb.png, id=217, 606.265pt x 603.25375pt>
 File: ruisvrij_vb.png Graphic file (type png)
-<use ruisvrij_vb.png>
-Package pdftex.def Info: ruisvrij_vb.png  used on input line 150. on input line
- 150.
-Package pdftex.def Info: Requested size: 199.16928pt x 198.18147pt on input lin
-e 150.
+ <use ruisvrij_vb.png>
+Package pdftex.def Info: ruisvrij_vb.png used on input line 149.
+(pdftex.def)             Requested size: 199.16928pt x 198.18147pt.
+
 <ruisvrij_kleur_vb.png, id=218, 602.25pt x 607.26875pt>
 File: ruisvrij_kleur_vb.png Graphic file (type png)
+
 <use ruisvrij_kleur_vb.png>
-Package pdftex.def Info: ruisvrij_kleur_vb.png  used on input line 152. on inpu
-t line 152.
-Package pdftex.def Info: Requested size: 199.16928pt x 200.82555pt on input lin
-e 152.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+Package pdftex.def Info: ruisvrij_kleur_vb.png used on input line 151.
+(pdftex.def)             Requested size: 199.16928pt x 200.82555pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 158. on input li
-ne 158.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-158.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 156.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1502,8 +1449,8 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.158 	\newpage
-               
+l.156 
+      
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1511,8 +1458,8 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.158 	\newpage
-               
+l.156 
+      
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1524,89 +1471,17 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./grijswaarden_bin_gevuld_vb.png>]
-<Indicator_vb1.png, id=231, 675.52374pt x 685.56125pt>
-File: Indicator_vb1.png Graphic file (type png)
-<use Indicator_vb1.png>
-Package pdftex.def Info: Indicator_vb1.png  used on input line 165. on input li
-ne 165.
-Package pdftex.def Info: Requested size: 199.16928pt x 202.12375pt on input lin
-e 165.
-<Indicator_vb2.png, id=232, 697.60625pt x 707.64375pt>
-File: Indicator_vb2.png Graphic file (type png)
-<use Indicator_vb2.png>
-Package pdftex.def Info: Indicator_vb2.png  used on input line 167. on input li
-ne 167.
-Package pdftex.def Info: Requested size: 199.16928pt x 202.0369pt on input line
- 167.
+<Volledig_onbewerkt.png, id=227, 1388.18625pt x 677.53125pt>
+File: Volledig_onbewerkt.png Graphic file (type png)
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<HSV_vb.png, id=233, 1284.8pt x 1027.84pt>
-File: HSV_vb.png Graphic file (type png)
-<use HSV_vb.png>
-Package pdftex.def Info: HSV_vb.png  used on input line 175. on input line 175.
-
-Package pdftex.def Info: Requested size: 318.66946pt x 254.93619pt on input lin
-e 175.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<RGB_r.jpg, id=237, 1122.1925pt x 1033.8625pt>
-File: RGB_r.jpg Graphic file (type jpg)
-<use RGB_r.jpg>
-Package pdftex.def Info: RGB_r.jpg  used on input line 186. on input line 186.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 186.
-<RGB_g.jpg, id=238, 1122.1925pt x 1033.8625pt>
-File: RGB_g.jpg Graphic file (type jpg)
-<use RGB_g.jpg>
-Package pdftex.def Info: RGB_g.jpg  used on input line 188. on input line 188.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 188.
-<RGB_b.jpg, id=239, 1122.1925pt x 1033.8625pt>
-File: RGB_b.jpg Graphic file (type jpg)
-<use RGB_b.jpg>
-Package pdftex.def Info: RGB_b.jpg  used on input line 190. on input line 190.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 190.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<HSV_h.jpg, id=240, 1122.1925pt x 1033.8625pt>
-File: HSV_h.jpg Graphic file (type jpg)
-<use HSV_h.jpg>
-Package pdftex.def Info: HSV_h.jpg  used on input line 197. on input line 197.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 197.
-<HSV_s.jpg, id=241, 1122.1925pt x 1033.8625pt>
-File: HSV_s.jpg Graphic file (type jpg)
-<use HSV_s.jpg>
-Package pdftex.def Info: HSV_s.jpg  used on input line 199. on input line 199.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 199.
-<HSV_v.jpg, id=242, 1122.1925pt x 1033.8625pt>
-File: HSV_v.jpg Graphic file (type jpg)
-<use HSV_v.jpg>
-Package pdftex.def Info: HSV_v.jpg  used on input line 201. on input line 201.
-Package pdftex.def Info: Requested size: 128.0374pt x 117.95305pt on input line
- 201.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<algemene_threshold.jpg, id=244, 1100.11pt x 1003.75pt>
-File: algemene_threshold.jpg Graphic file (type jpg)
-<use algemene_threshold.jpg>
-Package pdftex.def Info: algemene_threshold.jpg  used on input line 212. on inp
-ut line 212.
-Package pdftex.def Info: Requested size: 318.66946pt x 290.7584pt on input line
- 212.
+<use Volledig_onbewerkt.png>
+Package pdftex.def Info: Volledig_onbewerkt.png used on input line 159.
+(pdftex.def)             Requested size: 433.90453pt x 211.76935pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 216. on input li
-ne 216.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-216.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 164.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1616,8 +1491,8 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.216 	\end{figure}
-                   
+l.164 	\newpage
+               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1625,8 +1500,8 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.216 	\end{figure}
-                   
+l.164 	\newpage
+               
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
@@ -1637,67 +1512,30 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.png>]
+[9 <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.png> <./Volledig_onbewerkt.png>]
+<Indicator_vb1.png, id=245, 675.52374pt x 685.56125pt>
+File: Indicator_vb1.png Graphic file (type png)
+ <use Indicator_vb1.png>
+Package pdftex.def Info: Indicator_vb1.png used on input line 171.
+(pdftex.def)             Requested size: 199.16928pt x 202.12375pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<Indicator_vb2.png, id=246, 697.60625pt x 707.64375pt>
+File: Indicator_vb2.png Graphic file (type png)
+ <use Indicator_vb2.png>
+Package pdftex.def Info: Indicator_vb2.png used on input line 173.
+(pdftex.def)             Requested size: 199.16928pt x 202.0369pt.
 
-Package epstopdf Info: Source file: <hsvhist_h.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 21378 bytes
-(epstopdf)             Output file: <hsvhist_h-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 9877 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_h-eps-converted-to.
-pdf hsvhist_h.eps>
-(epstopdf)             \includegraphics on input line 226.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_h-eps-converted-to.pdf, id=260, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_h-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf  used on input line 226
-. on input line 226.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-226.
-Package epstopdf Info: Source file: <hsvhist_s.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 22040 bytes
-(epstopdf)             Output file: <hsvhist_s-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 10079 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_s-eps-converted-to.
-pdf hsvhist_s.eps>
-(epstopdf)             \includegraphics on input line 228.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_s-eps-converted-to.pdf, id=261, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_s-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf  used on input line 228
-. on input line 228.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-228.
-Package epstopdf Info: Source file: <hsvhist_v.eps>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 22436 bytes
-(epstopdf)             Output file: <hsvhist_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-27 17:19:35
-(epstopdf)                    size: 10026 bytes
-(epstopdf)             Command: <epstopdf --outfile=hsvhist_v-eps-converted-to.
-pdf hsvhist_v.eps>
-(epstopdf)             \includegraphics on input line 230.
-Package epstopdf Info: Output file is already uptodate.
-<hsvhist_v-eps-converted-to.pdf, id=262, pagebox=cropbox, 562.1pt x 421.575pt>
-File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
-<use hsvhist_v-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf  used on input line 230
-. on input line 230.
-Package pdftex.def Info: Requested size: 128.0374pt x 96.02747pt on input line 
-230.
+<HSV_vb.png, id=247, 1284.8pt x 1027.84pt>
+File: HSV_vb.png Graphic file (type png)
+ <use HSV_vb.png>
+Package pdftex.def Info: HSV_vb.png used on input line 181.
+(pdftex.def)             Requested size: 318.66946pt x 254.93619pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
+
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 235. on input li
-ne 235.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-235.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 186.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1707,7 +1545,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.235 
+l.186 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1716,7 +1554,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.235 
+l.186 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1729,26 +1567,46 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./Indicator_vb1.png> <./Indicator_vb2.png>]
-<morf_open.png, id=275, 256.96pt x 256.96pt>
-File: morf_open.png Graphic file (type png)
-<use morf_open.png>
-Package pdftex.def Info: morf_open.png  used on input line 238. on input line 2
-38.
-Package pdftex.def Info: Requested size: 199.16928pt x 199.1733pt on input line
- 238.
-<morf_gesloten.png, id=276, 256.96pt x 256.96pt>
-File: morf_gesloten.png Graphic file (type png)
-<use morf_gesloten.png>
-Package pdftex.def Info: morf_gesloten.png  used on input line 240. on input li
-ne 240.
-Package pdftex.def Info: Requested size: 199.16928pt x 199.1733pt on input line
- 240.
+<RGB_r.jpg, id=262, 1122.1925pt x 1033.8625pt>
+File: RGB_r.jpg Graphic file (type jpg)
+ <use RGB_r.jpg>
+Package pdftex.def Info: RGB_r.jpg used on input line 192.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_g.jpg, id=263, 1122.1925pt x 1033.8625pt>
+File: RGB_g.jpg Graphic file (type jpg)
+ <use RGB_g.jpg>
+Package pdftex.def Info: RGB_g.jpg used on input line 194.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_b.jpg, id=264, 1122.1925pt x 1033.8625pt>
+File: RGB_b.jpg Graphic file (type jpg)
+ <use RGB_b.jpg>
+Package pdftex.def Info: RGB_b.jpg used on input line 196.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_h.jpg, id=265, 1122.1925pt x 1033.8625pt>
+File: HSV_h.jpg Graphic file (type jpg)
+ <use HSV_h.jpg>
+Package pdftex.def Info: HSV_h.jpg used on input line 203.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_s.jpg, id=266, 1122.1925pt x 1033.8625pt>
+File: HSV_s.jpg Graphic file (type jpg)
+ <use HSV_s.jpg>
+Package pdftex.def Info: HSV_s.jpg used on input line 205.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_v.jpg, id=267, 1122.1925pt x 1033.8625pt>
+File: HSV_v.jpg Graphic file (type jpg)
+ <use HSV_v.jpg>
+Package pdftex.def Info: HSV_v.jpg used on input line 207.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
+
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 245. on input li
-ne 245.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-245.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 212.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1759,7 +1617,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.245 
+l.212 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1768,7 +1626,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.245 
+l.212 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1780,86 +1638,185 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./HSV_vb.png> <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg> <./hsvhist_h-eps-c
-onverted-to.pdf> <./hsvhist_s-eps-converted-to.pdf> <./hsvhist_v-eps-converted-
-to.pdf>]
-<app.jpg, id=314, 1161.138pt x 592.614pt>
-File: app.jpg Graphic file (type jpg)
-<use app.jpg>
-Package pdftex.def Info: app.jpg  used on input line 251. on input line 251.
-Package pdftex.def Info: Requested size: 483.69684pt x 246.8616pt on input line
- 251.
+[11 <./HSV_vb.png> <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg>]
+<algemene_threshold.jpg, id=280, 1100.11pt x 1003.75pt>
+File: algemene_threshold.jpg Graphic file (type jpg)
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 251--252
+<use algemene_threshold.jpg>
+Package pdftex.def Info: algemene_threshold.jpg used on input line 217.
+(pdftex.def)             Requested size: 318.66946pt x 290.7584pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 227.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.227 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.227 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./HSV_h.jpg> <./HSV_s.jpg> <./HSV_v.jpg> <./algemene_threshold.jpg>]
+Package epstopdf Info: Source file: <hsvhist_h.eps>
+(epstopdf)                    date: 2018-10-27 13:55:44
+(epstopdf)                    size: 21378 bytes
+(epstopdf)             Output file: <hsvhist_h-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:29
+(epstopdf)                    size: 9877 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_h-eps-converted-to
+.pdf hsvhist_h.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_h-eps-converted-to.pdf, id=292, 562.1pt x 421.575pt>
+File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_h-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf used on input line 231.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+Package epstopdf Info: Source file: <hsvhist_s.eps>
+(epstopdf)                    date: 2018-10-27 13:56:06
+(epstopdf)                    size: 22040 bytes
+(epstopdf)             Output file: <hsvhist_s-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:30
+(epstopdf)                    size: 10079 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_s-eps-converted-to
+.pdf hsvhist_s.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_s-eps-converted-to.pdf, id=293, 562.1pt x 421.575pt>
+File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_s-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf used on input line 233.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+Package epstopdf Info: Source file: <hsvhist_v.eps>
+(epstopdf)                    date: 2018-10-27 13:56:23
+(epstopdf)                    size: 22436 bytes
+(epstopdf)             Output file: <hsvhist_v-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-27 13:57:30
+(epstopdf)                    size: 10026 bytes
+(epstopdf)             Command: <repstopdf --outfile=hsvhist_v-eps-converted-to
+.pdf hsvhist_v.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+
+<hsvhist_v-eps-converted-to.pdf, id=294, 562.1pt x 421.575pt>
+File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hsvhist_v-eps-converted-to.pdf>
+Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf used on input line 235.
+
+(pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<morf_open.png, id=295, 256.96pt x 256.96pt>
+File: morf_open.png Graphic file (type png)
+ <use morf_open.png>
+Package pdftex.def Info: morf_open.png used on input line 243.
+(pdftex.def)             Requested size: 199.16928pt x 199.1733pt.
+
+<morf_gesloten.png, id=296, 256.96pt x 256.96pt>
+File: morf_gesloten.png Graphic file (type png)
+ <use morf_gesloten.png>
+Package pdftex.def Info: morf_gesloten.png used on input line 245.
+(pdftex.def)             Requested size: 199.16928pt x 199.1733pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 253.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.253 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.253 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-eps-converted-to.pdf> <./hs
+vhist_v-eps-converted-to.pdf> <./morf_open.png> <./morf_gesloten.png>]
+<app.jpg, id=338, 1161.138pt x 592.614pt>
+File: app.jpg Graphic file (type jpg)
+ <use app.jpg>
+Package pdftex.def Info: app.jpg used on input line 256.
+(pdftex.def)             Requested size: 483.69684pt x 246.8616pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 261. on input li
-ne 261.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-261.
-
-Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
- Make it at least 46.27914pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.261 
-      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.261 
-      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 44.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 <./HSV_h.jpg> <./HSV_s.jpg> <./HSV_v.jpg> <./morf_open.png> <./morf_geslote
-n.png>]
-<BloedklonterVoor.jpg, id=329, 531.78674pt x 537.207pt>
+<BloedklonterVoor.jpg, id=340, 531.78674pt x 537.207pt>
 File: BloedklonterVoor.jpg Graphic file (type jpg)
+
 <use BloedklonterVoor.jpg>
-Package pdftex.def Info: BloedklonterVoor.jpg  used on input line 264. on input
- line 264.
-Package pdftex.def Info: Requested size: 199.16928pt x 201.19801pt on input lin
-e 264.
-<BloedklonterNa.jpg, id=330, 508.90125pt x 538.4115pt>
+Package pdftex.def Info: BloedklonterVoor.jpg used on input line 269.
+(pdftex.def)             Requested size: 199.16928pt x 201.19801pt.
+
+<BloedklonterNa.jpg, id=341, 508.90125pt x 538.4115pt>
 File: BloedklonterNa.jpg Graphic file (type jpg)
+
 <use BloedklonterNa.jpg>
-Package pdftex.def Info: BloedklonterNa.jpg  used on input line 266. on input l
-ine 266.
-Package pdftex.def Info: Requested size: 199.16928pt x 210.71902pt on input lin
-e 266.
+Package pdftex.def Info: BloedklonterNa.jpg used on input line 271.
+(pdftex.def)             Requested size: 199.16928pt x 210.71902pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 271. on input li
-ne 271.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-271.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 276.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1870,7 +1827,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.271 
+l.276 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1879,7 +1836,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.271 
+l.276 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1891,13 +1848,11 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./algemene_threshold.jpg>]
+[14 <./app.jpg>]
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 276. on input li
-ne 276.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-276.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 282.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1908,7 +1863,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.276 	\newpage
+l.282 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1917,7 +1872,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.276 	\newpage
+l.282 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1929,13 +1884,11 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./app.jpg> <./BloedklonterVoor.jpg> <./BloedklonterNa.jpg>]
+[15 <./BloedklonterVoor.jpg> <./BloedklonterNa.jpg>]
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 290. on input li
-ne 290.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-290.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 296.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -1946,7 +1899,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.290 	\newpage
+l.296 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1955,7 +1908,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.290 	\newpage
+l.296 	\newpage
                
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1967,19 +1920,18 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[16]
 No file TTverslag.bbl.
 
-Overfull \hbox (86.5024pt too wide) in paragraph at lines 324--325
+Overfull \hbox (86.5024pt too wide) in paragraph at lines 330--331
 [][]  
  []
 
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 325. on input li
-ne 325.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-325.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 331.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1989,7 +1941,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.325 		\end{landscape}
+l.331 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1998,7 +1950,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.325 		\end{landscape}
+l.331 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2010,15 +1962,13 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[17
 
 ]
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-<use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 325. on input li
-ne 325.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-325.
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 331.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
@@ -2029,7 +1979,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.325 		\end{landscape}
+l.331 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2038,7 +1988,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.325 		\end{landscape}
+l.331 		\end{landscape}
                        
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2050,14 +2000,13 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] 
+[18] 
 AED: lastpage setting LastPage
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 341. on input li
-ne 341.
-Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
-341.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 347.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -2067,7 +2016,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
 ! Missing } inserted.
 <inserted text> 
                 }
-l.341 \end{document}
+l.347 \end{document}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2076,7 +2025,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.341 \end{document}
+l.347 \end{document}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2088,47 +2037,46 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
- (TTverslag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+ (./TTverslag.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
 Package rerunfilecheck Info: File `TTverslag.out' has not changed.
-(rerunfilecheck)             Checksum: B414528A5181811AAA08180C1173EFFF;1132.
+(rerunfilecheck)             Checksum: 6D359B778CB043BAD2D14A2FB85A0426;1116.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
  ) 
 Here is how much of TeX's memory you used:
- 21397 strings out of 493314
- 420619 string characters out of 3138864
- 574538 words of memory out of 3000000
- 24435 multiletter control sequences out of 15000+200000
- 14653 words of font info for 32 fonts, out of 3000000 for 9000
+ 21506 strings out of 492995
+ 423779 string characters out of 6132704
+ 578314 words of memory out of 5000000
+ 24551 multiletter control sequences out of 15000+600000
+ 14653 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,85p,1101b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
-m0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfsl1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfti1000.pfb>
-Output written on TTverslag.pdf (18 pages, 17694931 bytes).
+ 62i,18n,85p,1082b,1035s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on TTverslag.pdf (19 pages, 20341936 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
