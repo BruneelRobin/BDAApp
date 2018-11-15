@@ -1,4 +1,3 @@
-%%
 Im = imread('2018_1 VWF 17.tif');
 
 bins = 128;
@@ -20,25 +19,17 @@ mask = bwareaopen(mask, 50); % ruis verwijderen
 %figure
 %imshow(mask);
 
-newIm = Im;
+newIm = applyMask(Im, mask);
 
-r = Im(:,:,1);
-g = Im(:,:,2);
-b = Im(:,:,3);
 
-r(mask) = r(mask)*0.75;
-g(mask) = g(mask)*0.75;
-b(mask) = b(mask)*1.2;
-b(b>255) = 255;
-
-newIm(:,:,1) = r;
-newIm(:,:,2) = g;
-newIm(:,:,3) = b;
 
 %figure
 %imshow(newIm);
 %imshow(hsv2rgb(modifiedIm));
 imwrite(newIm,'test.tif')
+%%
+newMask = filtermask(hsvimg, mask);
+imshow(applyMask(Im, newMask, 1.5));
 
 %%
 
