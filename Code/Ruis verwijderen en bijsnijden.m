@@ -1,17 +1,28 @@
-Im = imread("2018_3 VWF 15 raw.tif");
-imshow(Im)
+Im = imread("2018_4 VWF 22 raw.tif");
+Im(end-70:end-30,30:330,:) = 255;
+%Im(end-70:end-30,30:330,2) = 255;
+%Im(end-70:end-30,30:330,3) = 255; % watermark verwijderen
+%imshow(Im);
 gray = rgb2gray(Im);
-imshow(gray)
+%imshow(gray);
 mask = gray > 200;
 gray(mask) = 0;
 gray(~mask) = 255;
-imshow(gray)
-fillHoles = imfill(gray,'holes');
-imshow(fillHoles)
-figure
-beter = bwareaopen(fillHoles, 1500);
-imshow(beter)
-figure
+%imshow(gray);
+%fillHoles = imfill(gray,'holes');
+%imshow(fillHoles);
+%filledHoles = ~bwareaopen(mask, 5000);
+%filledHoles = fillHoles & ~gray
+se = strel('disk',4);
+fillHoles = imclose(gray,se);
+fillHoles = ~bwareaopen(~fillHoles, 1500); %holtes opvullen
+%fillHoles = fillHoles & gray;
+%figure
+%imshow(fillHoles);
+%figure
+beter = bwareaopen(fillHoles, 1500); % holtes verwijderen
+%imshow(beter)
+%figure
 
 r = Im(:,:,1);
 g = Im(:,:,2);
@@ -23,8 +34,8 @@ Im(:,:,1) = r;
 Im(:,:,2) = g;
 Im(:,:,3) = b;
 
-imshow(Im)
-figure
+%imshow(Im)
+%figure
 
 [height, width] = size(beter);
 buffer = 300
@@ -36,5 +47,5 @@ col1 = max([min(columns) - buffer, 1]);
 col2 = min([max(columns) + buffer, width]);
 
 croppedImage = Im(row1:row2, col1:col2,:);
-imshow(croppedImage)
-imwrite(croppedImage, 'edited.tif')
+%imshow(croppedImage)
+imwrite(croppedImage, 'edited.tif','Compression','none','Resolution',100);
