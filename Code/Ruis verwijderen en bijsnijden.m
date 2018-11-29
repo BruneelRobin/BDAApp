@@ -1,4 +1,4 @@
-Im = imread("2018_4 VWF 22 raw.tif");
+Im = imread("2018_3 VWF 15 raw.tif");
 Im(end-70:end-30,30:330,:) = 255;
 %Im(end-70:end-30,30:330,2) = 255;
 %Im(end-70:end-30,30:330,3) = 255; % watermark verwijderen

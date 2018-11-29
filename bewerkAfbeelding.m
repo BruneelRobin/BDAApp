@@ -47,7 +47,7 @@ function [modifiedIm, indicatorMask] = bewerkAfbeelding (afbeelding, minTres, ma
     se = strel('diamond',1);
     indicatorMask = imclose(newMask,se);
     
-    modifiedIm = applyMask(afbeelding, newMask, 2);
+    modifiedIm = applyMask(afbeelding, indicatorMask, 2);
 
     %imshow(applyMask(Im, newMask, 2));
     %imwrite(applyMask(Im, newMask, 2),'test2.tif','Compression','none','Resolution',100);
