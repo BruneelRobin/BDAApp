@@ -1,6 +1,6 @@
-function [modifiedIm, indicatorMask] = bewerkAfbeelding (afbeelding, minTres, maxTres)
+function [modifiedIm, indicatorMask] = bewerkAfbeelding (hsvimg, afbeelding, minTres, maxTres)
     %Im = imread('edited.tif');
-    hsvimg = rgb2hsv(afbeelding);
+    %hsvimg = rgb2hsv(afbeelding);
     
     if ~exist('minTres','var')
         % third parameter does not exist, so default it to something

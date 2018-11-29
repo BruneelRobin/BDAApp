@@ -1,11 +1,25 @@
-Im = imread("2018_3 VWF 15 raw.tif");
+% CMYK
+% Tonen kanalen CMYK
+% Meer afbeeldingen inladen
+% Automatisch stappen doen
+
+
+Im = imread("test.tif");
 Im(end-70:end-30,30:330,:) = 255;
 %Im(end-70:end-30,30:330,2) = 255;
 %Im(end-70:end-30,30:330,3) = 255; % watermark verwijderen
 %imshow(Im);
 gray = rgb2gray(Im);
 %imshow(gray);
-mask = gray > 200;
+bestThreshold = getBestThreshold(gray, 200)
+if bestThreshold == 200 & max(
+    mask = gray > 240;
+    disp('Lage kleur')
+else 
+    mask = gray > bestThreshold;
+end
+
+
 gray(mask) = 0;
 gray(~mask) = 255;
 %imshow(gray);
@@ -20,7 +34,7 @@ fillHoles = ~bwareaopen(~fillHoles, 1500); %holtes opvullen
 %figure
 %imshow(fillHoles);
 %figure
-beter = bwareaopen(fillHoles, 1500); % holtes verwijderen
+beter = bwareaopen(fillHoles, 5000); % holtes verwijderen
 %imshow(beter)
 %figure
 
