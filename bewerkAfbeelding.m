@@ -2,6 +2,10 @@ function [modifiedIm, indicatorMask] = bewerkAfbeelding (hsvimg, afbeelding, min
     %Im = imread('edited.tif');
     %hsvimg = rgb2hsv(afbeelding);
     
+    si = size(hsvimg);
+    %minTres = minTres(:,:,si(3));
+    %maxTres = maxTres(:,:,si(3));
+    
     if ~exist('minTres','var')
         % third parameter does not exist, so default it to something
         minTres = [200/255,50/255,100/255];
