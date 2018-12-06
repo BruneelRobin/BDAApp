@@ -20,11 +20,11 @@ function [cmyk] = rgb2cmyk(im)
 
     m = uint8(zeros(si(1),si(2),1));
     m(mask) = I_cmyk(:,2);
-    m(~mask) = 0.0034;
+    m(~mask) = 0;
 
     y = uint8(zeros(si(1),si(2),1));
     y(mask) = I_cmyk(:,3);
-    y(~mask) = 0.0026;
+    y(~mask) = 0;
 
     k = uint8(zeros(si(1),si(2),1));
     k(mask) = I_cmyk(:,4);
