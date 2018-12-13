@@ -1,4 +1,4 @@
-function [modifiedIm, indicatorMask] = bewerkAfbeelding (hsvimg, afbeelding, minTres, maxTres)
+function [modifiedIm, indicatorMask] = bewerkAfbeelding (hsvimg, afbeelding, minTres, maxTres, filterImage)
     %Im = imread('edited.tif');
     %hsvimg = rgb2hsv(afbeelding);
     
@@ -41,18 +41,21 @@ function [modifiedIm, indicatorMask] = bewerkAfbeelding (hsvimg, afbeelding, min
     %imwrite(newIm,'test.tif','Compression','none','Resolution',100);
     
     % Filteren mask
-    %%%%%%newMask = filtermask(hsvimg, mask);
+    if (filterImage == true)
+        newMask = filtermask(hsvimg, mask);
     %newMask = mask;
-    %%%%%%%newMask = bwareaopen(newMask, 10); % ruis verwijderen
+        newMask = bwareaopen(newMask, 10); % ruis verwijderen
     %newMask = mask;
     %imshow(newMask);
     %se = strel('disk',1);
 
-    %%%%%%%se = strel('diamond',1);
-    %%%%%%%%indicatorMask = imclose(newMask,se);
+        se = strel('diamond',1);
+        indicatorMask = imclose(newMask,se);
     
-    %%%%%%%%modifiedIm = applyMask(afbeelding, indicatorMask, 2);
-    indicatorMask = mask;
+    %modifiedIm = applyMask(afbeelding, indicatorMask, 2);
+    else
+        indicatorMask = mask;
+    end
     modifiedIm = applyMask(afbeelding, indicatorMask, 2);
     %imshow(applyMask(Im, newMask, 2));
     %imwrite(applyMask(Im, newMask, 2),'test2.tif','Compression','none','Resolution',100);
