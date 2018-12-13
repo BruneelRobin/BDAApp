@@ -3,7 +3,7 @@ function [newMask] = filtermask(image, mask)
     sat = image(:,:,2);
     val = image(:,:,3);
     
-    newMask = (mask & filterFreq(hue, mask, 0.5) & filterFreq(sat, mask, 0.5)) | val < 0.5;
+    newMask = (mask & filter2eAfg(hue, mask, 0) & filter2eAfg(sat, mask, 0)) | val < 0.5;
     % een unie van alle gefilterde waarden en de originele mask
     %newMask = mask & filterFreq(hue, mask, 0.1) ;%& filterAvg(sat, mask, 0.5) & filterAvg(val, mask, 0.5);
 end
