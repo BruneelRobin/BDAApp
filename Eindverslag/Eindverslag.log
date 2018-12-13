@@ -1126,4 +1126,130 @@ e 27.
 map}>]
 <kulakLogo.pdf, id=59, pagebox=cropbox, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
-<use k
+<use kulakLogo.pdf>
+Package pdftex.def Info: kulakLogo.pdf  used on input line 29. on input line 29
+.
+Package pdftex.def Info: Requested size: 204.85858pt x 42.67912pt on input line
+ 29.
+<kuleuvenSedes.pdf, id=60, pagebox=cropbox, 349.305pt x 596.2275pt>
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 29. on input lin
+e 29.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+LaTeX Warning: Citation `worldhealthorganization' on page 2 undefined on input 
+line 33.
+
+<top10doodsoorzaken.png, id=62, 443.40656pt x 292.84406pt>
+File: top10doodsoorzaken.png Graphic file (type png)
+<use top10doodsoorzaken.png>
+Package pdftex.def Info: top10doodsoorzaken.png  used on input line 42. on inpu
+t line 42.
+Package pdftex.def Info: Requested size: 318.66946pt x 210.47667pt on input lin
+e 42.
+[2 <C:/Users/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/Us
+ers/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kuleuvenSedes.pdf> <./top10doo
+dsoorzaken.png>] (Eindverslag.toc)
+\tf@toc=\write5
+\openout5 = `Eindverslag.toc'.
+
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 53. on input lin
+e 53.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+53.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.53 \newpage
+             
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.53 \newpage
+             
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+LaTeX Warning: Reference `figuur indicators' on page 4 undefined on input line 
+62.
+
+
+LaTeX Warning: Reference `figuur achtergrondverwijdering' on page 4 undefined o
+n input line 69.
+
+<Ruis_afbeelding.png, id=93, 1133.23375pt x 705.63625pt>
+File: Ruis_afbeelding.png Graphic file (type png)
+<use Ruis_afbeelding.png>
+Package pdftex.def Info: Ruis_afbeelding.png  used on input line 73. on input l
+ine 73.
+Package pdftex.def Info: Requested size: 318.66946pt x 198.4274pt on input line
+ 73.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 77. on input lin
+e 77.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+77.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.77 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.77 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Packag
