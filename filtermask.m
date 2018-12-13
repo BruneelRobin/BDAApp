@@ -1,9 +1,13 @@
 function [newMask] = filtermask(image, mask)
-    hue = image(:,:,1);
-    sat = image(:,:,2);
-    val = image(:,:,3);
+    si = size(image);
     
-    newMask = (mask & filter2eAfg(hue, mask, 0) & filter2eAfg(sat, mask, 0)) | val < 0.5;
+    newMask = mask;
+    for i = 1:si(3)
+        col = image(:,:,i);
+        newMask = newMask & filter2eAfg(col, mask, 0);
+    end
+    
+    
     % een unie van alle gefilterde waarden en de originele mask
     %newMask = mask & filterFreq(hue, mask, 0.1) ;%& filterAvg(sat, mask, 0.5) & filterAvg(val, mask, 0.5);
 end
