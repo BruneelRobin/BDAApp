@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  13 DEC 2018 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.10.2)  13 DEC 2018 17:18
 entering extended mode
 **./Eindverslag.tex
 (Eindverslag.tex
@@ -1076,7 +1076,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<voorblad.pdf, id=38, pagebox=cropbox, 614.295pt x 794.97pt>
+<voorblad.pdf, id=30, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf>
 Package pdftex.def Info: voorblad.pdf  used on input line 27. on input line 27.
@@ -1089,7 +1089,7 @@ Package pdftex.def Info: voorblad.pdf  used on input line 27. on input line 27.
 
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 27.
-<voorblad.pdf, id=41, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<voorblad.pdf, id=33, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf, page 1>
 Package pdftex.def Info: voorblad.pdf , page1 used on input line 27. on input l
@@ -1124,14 +1124,14 @@ e 27.
 
  <./voorblad.pdf{C:/Users/Marthe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
 map}>]
-<kulakLogo.pdf, id=59, pagebox=cropbox, 245.83241pt x 51.21533pt>
+<kulakLogo.pdf, id=51, pagebox=cropbox, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
 Package pdftex.def Info: kulakLogo.pdf  used on input line 29. on input line 29
 .
 Package pdftex.def Info: Requested size: 204.85858pt x 42.67912pt on input line
  29.
-<kuleuvenSedes.pdf, id=60, pagebox=cropbox, 349.305pt x 596.2275pt>
+<kuleuvenSedes.pdf, id=52, pagebox=cropbox, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
 Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 29. on input lin
@@ -1152,10 +1152,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 
+LaTeX Warning: Reference `figuur doodsoorzaken' on page 2 undefined on input li
+ne 33.
+
+
 LaTeX Warning: Citation `worldhealthorganization' on page 2 undefined on input 
 line 33.
 
-<top10doodsoorzaken.png, id=62, 443.40656pt x 292.84406pt>
+<top10doodsoorzaken.png, id=53, 443.40656pt x 292.84406pt>
 File: top10doodsoorzaken.png Graphic file (type png)
 <use top10doodsoorzaken.png>
 Package pdftex.def Info: top10doodsoorzaken.png  used on input line 42. on inpu
@@ -1164,7 +1168,10 @@ Package pdftex.def Info: Requested size: 318.66946pt x 210.47667pt on input lin
 e 42.
 [2 <C:/Users/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kulakLogo.pdf> <C:/Us
 ers/Marthe/Documents/LaTeX/texmf/tex/latex/kulak/kuleuvenSedes.pdf> <./top10doo
-dsoorzaken.png>] (Eindverslag.toc)
+dsoorzaken.png>]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write5
 \openout5 = `Eindverslag.toc'.
 
@@ -1174,7 +1181,6 @@ Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 53. on input lin
 e 53.
 Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
 53.
-
 
 Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
  Make it at least 46.27914pt.
@@ -1200,6 +1206,9 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 53.
+
+
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 44.39996pt.
  We now make it that large for the rest of the document.
@@ -1214,7 +1223,7 @@ LaTeX Warning: Reference `figuur indicators' on page 4 undefined on input line
 LaTeX Warning: Reference `figuur achtergrondverwijdering' on page 4 undefined o
 n input line 69.
 
-<Ruis_afbeelding.png, id=93, 1133.23375pt x 705.63625pt>
+<Ruis_afbeelding.png, id=82, 1133.23375pt x 705.63625pt>
 File: Ruis_afbeelding.png Graphic file (type png)
 <use Ruis_afbeelding.png>
 Package pdftex.def Info: Ruis_afbeelding.png  used on input line 73. on input l
@@ -1252,4 +1261,329 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 
-Packag
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 77.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+LaTeX Warning: Reference `figuur beste_threshold' on page 5 undefined on input 
+line 79.
+
+
+LaTeX Warning: Reference `figuur graf1' on page 5 undefined on input line 79.
+
+
+LaTeX Warning: Reference `figuur foto_bin' on page 5 undefined on input line 79
+.
+
+
+! LaTeX Error: File `origineel_vb' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...includegraphics[width=6cm]{origineel_vb}}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (10.85846pt too wide) in paragraph at lines 83--83
+[]\T1/cmr/m/n/8 (a)|| 
+ []
+
+<grijswaarden_vb.png, id=96, 549.55313pt x 539.01375pt>
+File: grijswaarden_vb.png Graphic file (type png)
+<use grijswaarden_vb.png>
+Package pdftex.def Info: grijswaarden_vb.png  used on input line 85. on input l
+ine 85.
+Package pdftex.def Info: Requested size: 170.71652pt x 167.43796pt on input lin
+e 85.
+<GetBestthreshold_vb_aangeduid.png, id=97, 650.43pt x 531.9072pt>
+File: GetBestthreshold_vb_aangeduid.png Graphic file (type png)
+<use GetBestthreshold_vb_aangeduid.png>
+Package pdftex.def Info: GetBestthreshold_vb_aangeduid.png  used on input line 
+93. on input line 93.
+Package pdftex.def Info: Requested size: 386.96024pt x 316.45218pt on input lin
+e 93.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 98. on input lin
+e 98.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+98.
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.98 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.98 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 98.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./Ruis_afbeelding.png> <./grijswaarden_vb.png>]
+<grijswaarden_bin_vb.png, id=109, 552.56438pt x 534.99875pt>
+File: grijswaarden_bin_vb.png Graphic file (type png)
+<use grijswaarden_bin_vb.png>
+Package pdftex.def Info: grijswaarden_bin_vb.png  used on input line 101. on in
+put line 101.
+Package pdftex.def Info: Requested size: 318.66946pt x 308.5362pt on input line
+ 101.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 105. on input li
+ne 105.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+105.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.105 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.105 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 105.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./GetBestthreshold_vb_aangeduid.png>]
+<ganttchart.pdf, id=116, pagebox=cropbox, 597.50829pt x 845.0471pt>
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf>
+Package pdftex.def Info: ganttchart.pdf  used on input line 118. on input line 
+118.
+Package pdftex.def Info: Requested size: 597.50682pt x 845.04504pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf>
+Package pdftex.def Info: ganttchart.pdf  used on input line 118. on input line 
+118.
+Package pdftex.def Info: Requested size: 597.50682pt x 845.04504pt on input lin
+e 118.
+<ganttchart.pdf, id=119, page=1, pagebox=cropbox, 597.50829pt x 845.0471pt>
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf , page1 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.50682pt x 845.04504pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf , page1 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 118. on input li
+ne 118.
+Package pdftex.def Info: Requested size: 25.00282pt x 42.67912pt on input line 
+118.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.118 \includepdf[pages={1-3}]{ganttchart}
+                                          
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.118 \includepdf[pages={1-3}]{ganttchart}
+                                          
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 118.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 44.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./grijswaarden_bin_vb.png>]
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf , page1 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf , page1 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf , page1 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+ [8 <./ganttchart.pdf>]
+<ganttchart.pdf, id=156, page=2, pagebox=cropbox, 597.50829pt x 845.0471pt>
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 2>
+Package pdftex.def Info: ganttchart.pdf , page2 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 2>
+Package pdftex.def Info: ganttchart.pdf , page2 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 2>
+Package pdftex.def Info: ganttchart.pdf , page2 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+ [9 <./ganttchart.pdf>]
+<ganttchart.pdf, id=161, page=3, pagebox=cropbox, 597.50829pt x 845.0471pt>
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 3>
+Package pdftex.def Info: ganttchart.pdf , page3 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 3>
+Package pdftex.def Info: ganttchart.pdf , page3 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+File: ganttchart.pdf Graphic file (type pdf)
+<use ganttchart.pdf, page 3>
+Package pdftex.def Info: ganttchart.pdf , page3 used on input line 118. on inpu
+t line 118.
+Package pdftex.def Info: Requested size: 597.53416pt x 845.08372pt on input lin
+e 118.
+
+[10 <./ganttchart.pdf>]
+
+Package lastpage Warning: Rerun to get the references right on input line 120.
+
+
+AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+(Eindverslag.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+
+
+Package rerunfilecheck Warning: File `Eindverslag.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Eindverslag.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  850A2E86C90D24DCB1724C65DC893965;404.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+ ) 
+Here is how much of TeX's memory you used:
+ 19547 strings out of 493314
+ 373957 string characters out of 3138864
+ 438626 words of memory out of 3000000
+ 22680 multiletter control sequences out of 15000+200000
+ 13845 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,18n,80p,877b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx0800.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sfrm0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1000.pfb
+>
+Output written on Eindverslag.pdf (10 pages, 6126251 bytes).
+PDF statistics:
+ 218 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+
