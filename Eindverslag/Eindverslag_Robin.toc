@@ -5,7 +5,9 @@
 \contentsline {subsection}{\numberline {3.1}Achtergrondverwijdering}{2}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Bepalen van de beste threshold}{3}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Ruisfilter}{5}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Lokalisatie van de indicator}{6}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Het HSV kleurmodel}{8}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Een algemene threshold}{8}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Optimalisatie van de threshold}{9}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.1.3}Uitzonderingen}{6}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Lokalisatie van de indicator}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Het HSV kleurmodel}{9}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Een algemene threshold}{10}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Optimalisatie van de threshold}{11}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Problemen}{12}{subsubsection.3.2.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  13 DEC 2018 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.8)  15 DEC 2018 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,7 +1083,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<voorblad.pdf, id=71, 614.295pt x 794.97pt>
+<voorblad.pdf, id=79, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
  <use voorblad.pdf>
 Package pdftex.def Info: voorblad.pdf used on input line 25.
@@ -1093,7 +1093,7 @@ File: voorblad.pdf Graphic file (type pdf)
 <use voorblad.pdf>
 Package pdftex.def Info: voorblad.pdf used on input line 25.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- <voorblad.pdf, id=74, page=1, 614.295pt x 794.97pt>
+ <voorblad.pdf, id=82, page=1, 614.295pt x 794.97pt>
 File: voorblad.pdf Graphic file (type pdf)
 
 <use voorblad.pdf, page 1>
@@ -1121,13 +1121,13 @@ Package pdftex.def Info: voorblad.pdf, page1 used on input line 25.
 
  <./voorblad.pdf{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdft
 ex.map}>]
-<kulakLogo.png, id=92, 245.718pt x 56.8524pt>
+<kulakLogo.png, id=100, 245.718pt x 56.8524pt>
 File: kulakLogo.png Graphic file (type png)
  <use kulakLogo.png>
 Package pdftex.def Info: kulakLogo.png used on input line 28.
 (pdftex.def)             Requested size: 184.46051pt x 42.67912pt.
 
-<kuleuvenSedes.pdf, id=94, 349.305pt x 596.2275pt>
+<kuleuvenSedes.pdf, id=102, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
  <use kuleuvenSedes.pdf>
 Package pdftex.def Info: kuleuvenSedes.pdf used on input line 28.
@@ -1150,7 +1150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 \openout5 = `Eindverslag_Robin.toc'.
 
 
-<Ruis_afbeelding.png, id=106, 1133.23375pt x 705.63625pt>
+<Ruis_afbeelding.png, id=116, 1133.23375pt x 705.63625pt>
 File: Ruis_afbeelding.png Graphic file (type png)
 
 <use Ruis_afbeelding.png>
@@ -1158,20 +1158,20 @@ Package pdftex.def Info: Ruis_afbeelding.png used on input line 48.
 (pdftex.def)             Requested size: 318.66946pt x 198.4274pt.
  [2 </Users/robin/Library/texmf/tex/latex/kulak/kulakLogo.png> </Users/robin/Li
 brary/texmf/tex/latex/kulak/kuleuvenSedes.pdf>]
-<origineel_vb.png, id=126, 575.14874pt x 575.14874pt>
+<origineel_vb.png, id=136, 575.14874pt x 575.14874pt>
 File: origineel_vb.png Graphic file (type png)
  <use origineel_vb.png>
 Package pdftex.def Info: origineel_vb.png used on input line 58.
 (pdftex.def)             Requested size: 170.71652pt x 170.71176pt.
 
-<grijswaarden_vb.png, id=127, 549.55313pt x 539.01375pt>
+<grijswaarden_vb.png, id=137, 549.55313pt x 539.01375pt>
 File: grijswaarden_vb.png Graphic file (type png)
 
 <use grijswaarden_vb.png>
 Package pdftex.def Info: grijswaarden_vb.png used on input line 60.
 (pdftex.def)             Requested size: 170.71652pt x 167.43796pt.
 
-<GetBestthreshold_vb_aangeduid.png, id=128, 650.43pt x 531.9072pt>
+<GetBestthreshold_vb_aangeduid.png, id=138, 650.43pt x 531.9072pt>
 File: GetBestthreshold_vb_aangeduid.png Graphic file (type png)
 
 <use GetBestthreshold_vb_aangeduid.png>
@@ -1190,7 +1190,7 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <./Ruis_afbeelding.png> <./origineel_vb.png> <./grijswaarden_vb.png>]
-<grijswaarden_bin_vb.png, id=143, 552.56438pt x 534.99875pt>
+<grijswaarden_bin_vb.png, id=153, 552.56438pt x 534.99875pt>
 File: grijswaarden_bin_vb.png Graphic file (type png)
 
 <use grijswaarden_bin_vb.png>
@@ -1208,13 +1208,13 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./GetBestthreshold_vb_aangeduid.png>]
-<ruisvrij_vb.png, id=154, 581.17125pt x 563.10374pt>
+<ruisvrij_vb.png, id=164, 581.17125pt x 563.10374pt>
 File: ruisvrij_vb.png Graphic file (type png)
  <use ruisvrij_vb.png>
 Package pdftex.def Info: ruisvrij_vb.png used on input line 87.
 (pdftex.def)             Requested size: 199.16928pt x 192.97357pt.
 
-<ruisvrij_kleur_vb.png, id=155, 579.16376pt x 561.09625pt>
+<ruisvrij_kleur_vb.png, id=165, 579.16376pt x 561.09625pt>
 File: ruisvrij_kleur_vb.png Graphic file (type png)
 
 <use ruisvrij_kleur_vb.png>
@@ -1232,15 +1232,22 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  This may cause the page layout to be inconsistent, however.
 
 [5 <./grijswaarden_bin_vb.png>]
-<Volledig_onbewerkt.png, id=167, 1388.18625pt x 677.53125pt>
+<Volledig_onbewerkt.png, id=177, 1388.18625pt x 677.53125pt>
 File: Volledig_onbewerkt.png Graphic file (type png)
 
 <use Volledig_onbewerkt.png>
 Package pdftex.def Info: Volledig_onbewerkt.png used on input line 97.
 (pdftex.def)             Requested size: 433.90453pt x 211.76935pt.
+
+<lichte_kleuring.png, id=182, 847.165pt x 678.535pt>
+File: lichte_kleuring.png Graphic file (type png)
+ <use lichte_kleuring.png>
+Package pdftex.def Info: lichte_kleuring.png used on input line 108.
+(pdftex.def)             Requested size: 318.66946pt x 255.23686pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
- <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 105.
+
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 113.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
@@ -1250,26 +1257,14 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./ruisvrij_vb.png> <./ruisvrij_kleur_vb.png> <./Volledig_onbewerkt.png>]
-<Indicator_vb1.png, id=189, 675.52374pt x 685.56125pt>
-File: Indicator_vb1.png Graphic file (type png)
- <use Indicator_vb1.png>
-Package pdftex.def Info: Indicator_vb1.png used on input line 108.
-(pdftex.def)             Requested size: 199.16928pt x 202.12375pt.
+<lichte_kleuring_binair.png, id=196, 852.18375pt x 675.52374pt>
+File: lichte_kleuring_binair.png Graphic file (type png)
 
-<Indicator_vb2.png, id=190, 697.60625pt x 707.64375pt>
-File: Indicator_vb2.png Graphic file (type png)
- <use Indicator_vb2.png>
-Package pdftex.def Info: Indicator_vb2.png used on input line 110.
-(pdftex.def)             Requested size: 199.16928pt x 202.0369pt.
-
-<HSV_vb.png, id=191, 1284.8pt x 1027.84pt>
-File: HSV_vb.png Graphic file (type png)
- <use HSV_vb.png>
-Package pdftex.def Info: HSV_vb.png used on input line 118.
-(pdftex.def)             Requested size: 318.66946pt x 254.93619pt.
+<use lichte_kleuring_binair.png>
+Package pdftex.def Info: lichte_kleuring_binair.png used on input line 116.
+(pdftex.def)             Requested size: 318.66946pt x 252.60954pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
-
-<use kuleuvenSedes.pdf>
+ <use kuleuvenSedes.pdf>
 Package pdftex.def Info: kuleuvenSedes.pdf used on input line 126.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
@@ -1279,52 +1274,28 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./Indicator_vb1.png> <./Indicator_vb2.png> <./HSV_vb.png>]
-<RGB_r.jpg, id=206, 1122.1925pt x 1033.8625pt>
-File: RGB_r.jpg Graphic file (type jpg)
- <use RGB_r.jpg>
-Package pdftex.def Info: RGB_r.jpg used on input line 129.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+[7 <./lichte_kleuring.png> <./lichte_kleuring_binair.png>]
+<Indicator_vb1.png, id=210, 675.52374pt x 685.56125pt>
+File: Indicator_vb1.png Graphic file (type png)
+ <use Indicator_vb1.png>
+Package pdftex.def Info: Indicator_vb1.png used on input line 129.
+(pdftex.def)             Requested size: 199.16928pt x 202.12375pt.
 
-<RGB_g.jpg, id=207, 1122.1925pt x 1033.8625pt>
-File: RGB_g.jpg Graphic file (type jpg)
- <use RGB_g.jpg>
-Package pdftex.def Info: RGB_g.jpg used on input line 131.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+<Indicator_vb2.png, id=211, 697.60625pt x 707.64375pt>
+File: Indicator_vb2.png Graphic file (type png)
+ <use Indicator_vb2.png>
+Package pdftex.def Info: Indicator_vb2.png used on input line 131.
+(pdftex.def)             Requested size: 199.16928pt x 202.0369pt.
 
-<RGB_b.jpg, id=208, 1122.1925pt x 1033.8625pt>
-File: RGB_b.jpg Graphic file (type jpg)
- <use RGB_b.jpg>
-Package pdftex.def Info: RGB_b.jpg used on input line 133.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
-
-<HSV_h.jpg, id=209, 1122.1925pt x 1033.8625pt>
-File: HSV_h.jpg Graphic file (type jpg)
- <use HSV_h.jpg>
-Package pdftex.def Info: HSV_h.jpg used on input line 140.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
-
-<HSV_s.jpg, id=210, 1122.1925pt x 1033.8625pt>
-File: HSV_s.jpg Graphic file (type jpg)
- <use HSV_s.jpg>
-Package pdftex.def Info: HSV_s.jpg used on input line 142.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
-
-<HSV_v.jpg, id=211, 1122.1925pt x 1033.8625pt>
-File: HSV_v.jpg Graphic file (type jpg)
- <use HSV_v.jpg>
-Package pdftex.def Info: HSV_v.jpg used on input line 144.
-(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
-
-<algemene_threshold.jpg, id=213, 1100.11pt x 1003.75pt>
-File: algemene_threshold.jpg Graphic file (type jpg)
-
-<use algemene_threshold.jpg>
-Package pdftex.def Info: algemene_threshold.jpg used on input line 154.
-(pdftex.def)             Requested size: 318.66946pt x 290.7584pt.
+<HSV_vb.png, id=212, 1284.8pt x 1027.84pt>
+File: HSV_vb.png Graphic file (type png)
+ <use HSV_vb.png>
+Package pdftex.def Info: HSV_vb.png used on input line 139.
+(pdftex.def)             Requested size: 318.66946pt x 254.93619pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
- <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 159.
+
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 144.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
@@ -1333,8 +1304,73 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg> <./HSV_h.jpg> <./HSV_s.jpg> <./HSV
-_v.jpg>]
+[8 <./Indicator_vb1.png> <./Indicator_vb2.png>]
+<RGB_r.jpg, id=228, 1122.1925pt x 1033.8625pt>
+File: RGB_r.jpg Graphic file (type jpg)
+ <use RGB_r.jpg>
+Package pdftex.def Info: RGB_r.jpg used on input line 150.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_g.jpg, id=229, 1122.1925pt x 1033.8625pt>
+File: RGB_g.jpg Graphic file (type jpg)
+ <use RGB_g.jpg>
+Package pdftex.def Info: RGB_g.jpg used on input line 152.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<RGB_b.jpg, id=230, 1122.1925pt x 1033.8625pt>
+File: RGB_b.jpg Graphic file (type jpg)
+ <use RGB_b.jpg>
+Package pdftex.def Info: RGB_b.jpg used on input line 154.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_h.jpg, id=231, 1122.1925pt x 1033.8625pt>
+File: HSV_h.jpg Graphic file (type jpg)
+ <use HSV_h.jpg>
+Package pdftex.def Info: HSV_h.jpg used on input line 161.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_s.jpg, id=232, 1122.1925pt x 1033.8625pt>
+File: HSV_s.jpg Graphic file (type jpg)
+ <use HSV_s.jpg>
+Package pdftex.def Info: HSV_s.jpg used on input line 163.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+
+<HSV_v.jpg, id=233, 1122.1925pt x 1033.8625pt>
+File: HSV_v.jpg Graphic file (type jpg)
+ <use HSV_v.jpg>
+Package pdftex.def Info: HSV_v.jpg used on input line 165.
+(pdftex.def)             Requested size: 128.0374pt x 117.95305pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+
+<use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 170.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./HSV_vb.png> <./RGB_r.jpg> <./RGB_g.jpg> <./RGB_b.jpg>]
+<algemene_threshold.png, id=246, 477.785pt x 450.68375pt>
+File: algemene_threshold.png Graphic file (type png)
+
+<use algemene_threshold.png>
+Package pdftex.def Info: algemene_threshold.png used on input line 175.
+(pdftex.def)             Requested size: 318.66946pt x 300.59491pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 187.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./HSV_h.jpg> <./HSV_s.jpg> <./HSV_v.jpg> <./algemene_threshold.png>]
 Package epstopdf Info: Source file: <hsvhist_h.eps>
 (epstopdf)                    date: 2018-12-13 17:15:18
 (epstopdf)                    size: 21378 bytes
@@ -1343,13 +1379,14 @@ Package epstopdf Info: Source file: <hsvhist_h.eps>
 (epstopdf)                    size: 9877 bytes
 (epstopdf)             Command: <repstopdf --outfile=hsvhist_h-eps-converted-to
 .pdf hsvhist_h.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
- <hsvhist_h-eps-converted-to.pdf, id=230, 562.1pt x 421.575pt>
+
+<hsvhist_h-eps-converted-to.pdf, id=262, 562.1pt x 421.575pt>
 File: hsvhist_h-eps-converted-to.pdf Graphic file (type pdf)
 
 <use hsvhist_h-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf used on input line 168.
+Package pdftex.def Info: hsvhist_h-eps-converted-to.pdf used on input line 191.
 
 (pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
 Package epstopdf Info: Source file: <hsvhist_s.eps>
@@ -1360,14 +1397,14 @@ Package epstopdf Info: Source file: <hsvhist_s.eps>
 (epstopdf)                    size: 10079 bytes
 (epstopdf)             Command: <repstopdf --outfile=hsvhist_s-eps-converted-to
 .pdf hsvhist_s.eps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
-<hsvhist_s-eps-converted-to.pdf, id=231, 562.1pt x 421.575pt>
+<hsvhist_s-eps-converted-to.pdf, id=263, 562.1pt x 421.575pt>
 File: hsvhist_s-eps-converted-to.pdf Graphic file (type pdf)
 
 <use hsvhist_s-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf used on input line 170.
+Package pdftex.def Info: hsvhist_s-eps-converted-to.pdf used on input line 193.
 
 (pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
 Package epstopdf Info: Source file: <hsvhist_v.eps>
@@ -1378,19 +1415,26 @@ Package epstopdf Info: Source file: <hsvhist_v.eps>
 (epstopdf)                    size: 10026 bytes
 (epstopdf)             Command: <repstopdf --outfile=hsvhist_v-eps-converted-to
 .pdf hsvhist_v.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
-<hsvhist_v-eps-converted-to.pdf, id=232, 562.1pt x 421.575pt>
+<hsvhist_v-eps-converted-to.pdf, id=264, 562.1pt x 421.575pt>
 File: hsvhist_v-eps-converted-to.pdf Graphic file (type pdf)
 
 <use hsvhist_v-eps-converted-to.pdf>
-Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf used on input line 172.
+Package pdftex.def Info: hsvhist_v-eps-converted-to.pdf used on input line 195.
 
 (pdftex.def)             Requested size: 128.0374pt x 96.02747pt.
+
+<hsvhist_aangeduid.pdf, id=265, 562.1pt x 421.575pt>
+File: hsvhist_aangeduid.pdf Graphic file (type pdf)
+
+<use hsvhist_aangeduid.pdf>
+Package pdftex.def Info: hsvhist_aangeduid.pdf used on input line 203.
+(pdftex.def)             Requested size: 318.66946pt x 239.00082pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
  <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 177.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 208.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
@@ -1399,49 +1443,64 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./algemene_threshold.jpg>] <morf_open.png, id=239, 256.96pt x 256.96pt>
-File: morf_open.png Graphic file (type png)
+[11 <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-eps-converted-to.pdf> <./hs
+vhist_v-eps-converted-to.pdf>]
+<threshold_filtered.png, id=301, 479.7925pt x 450.68375pt>
+File: threshold_filtered.png Graphic file (type png)
 
-<use morf_open.png>
-Package pdftex.def Info: morf_open.png used on input line 180.
-(pdftex.def)             Requested size: 199.16928pt x 199.1733pt.
- <morf_gesloten.png, id=240, 256.96pt x 256.96pt>
-File: morf_gesloten.png Graphic file (type png)
+<use threshold_filtered.png>
+Package pdftex.def Info: threshold_filtered.png used on input line 211.
+(pdftex.def)             Requested size: 199.16928pt x 187.08528pt.
 
-<use morf_gesloten.png>
-Package pdftex.def Info: morf_gesloten.png used on input line 182.
-(pdftex.def)             Requested size: 199.16928pt x 199.1733pt.
+<threshold_morfologisch.png, id=302, 479.7925pt x 451.6875pt>
+File: threshold_morfologisch.png Graphic file (type png)
 
+<use threshold_morfologisch.png>
+Package pdftex.def Info: threshold_morfologisch.png used on input line 213.
+(pdftex.def)             Requested size: 199.16928pt x 187.50195pt.
+File: kuleuvenSedes.pdf Graphic file (type pdf)
+ <use kuleuvenSedes.pdf>
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 222.
+(pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (42.67912pt): 
+ Make it at least 46.27914pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./hsvhist_aangeduid.pdf> <./threshold_filtered.png> <./threshold_morfologi
+sch.png>]
 
 Package pdfpages Warning: Option `page' is unknow to \includepdf.
 (pdfpages)                Did you mean `pages'? (Note the `s'!)
 (pdfpages)                OK, I'll proceed as if it were `pages'.
 
-<ganttchart.pdf, id=241, 597.50829pt x 845.0471pt>
+<ganttchart.pdf, id=321, 597.50829pt x 845.0471pt>
 File: ganttchart.pdf Graphic file (type pdf)
  <use ganttchart.pdf>
-Package pdftex.def Info: ganttchart.pdf used on input line 189.
+Package pdftex.def Info: ganttchart.pdf used on input line 224.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf>
-Package pdftex.def Info: ganttchart.pdf used on input line 189.
+Package pdftex.def Info: ganttchart.pdf used on input line 224.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<ganttchart.pdf, id=244, page=1, 597.50829pt x 845.0471pt>
+<ganttchart.pdf, id=324, page=1, 597.50829pt x 845.0471pt>
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 1>
-Package pdftex.def Info: ganttchart.pdf, page1 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page1 used on input line 224.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ganttchart.pdf Graphic file (type pdf)
  <use ganttchart.pdf, page 1>
-Package pdftex.def Info: ganttchart.pdf, page1 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page1 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf used on input line 189.
+Package pdftex.def Info: kuleuvenSedes.pdf used on input line 224.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
 
 
@@ -1450,74 +1509,72 @@ Package Fancyhdr Warning: \headheight is too small (42.67912pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./hsvhist_h-eps-converted-to.pdf> <./hsvhist_s-eps-converted-to.pdf> <./hs
-vhist_v-eps-converted-to.pdf> <./morf_open.png> <./morf_gesloten.png>]
+[13]
 File: ganttchart.pdf Graphic file (type pdf)
-
-<use ganttchart.pdf, page 1>
-Package pdftex.def Info: ganttchart.pdf, page1 used on input line 189.
+ <use ganttchart.pdf, page 1>
+Package pdftex.def Info: ganttchart.pdf, page1 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
  <use ganttchart.pdf, page 1>
-Package pdftex.def Info: ganttchart.pdf, page1 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page1 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 1>
-Package pdftex.def Info: ganttchart.pdf, page1 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page1 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [11 <./ganttchart.pdf>]
-<ganttchart.pdf, id=309, page=2, 597.50829pt x 845.0471pt>
+ [14 <./ganttchart.pdf>]
+<ganttchart.pdf, id=359, page=2, 597.50829pt x 845.0471pt>
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 2>
-Package pdftex.def Info: ganttchart.pdf, page2 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page2 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
  <use ganttchart.pdf, page 2>
-Package pdftex.def Info: ganttchart.pdf, page2 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page2 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 2>
-Package pdftex.def Info: ganttchart.pdf, page2 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page2 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [12 <./ganttchart.pdf>]
-<ganttchart.pdf, id=314, page=3, 597.50829pt x 845.0471pt>
+ [15 <./ganttchart.pdf>]
+<ganttchart.pdf, id=364, page=3, 597.50829pt x 845.0471pt>
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 3>
-Package pdftex.def Info: ganttchart.pdf, page3 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page3 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
  <use ganttchart.pdf, page 3>
-Package pdftex.def Info: ganttchart.pdf, page3 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page3 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ganttchart.pdf Graphic file (type pdf)
 
 <use ganttchart.pdf, page 3>
-Package pdftex.def Info: ganttchart.pdf, page3 used on input line 189.
+Package pdftex.def Info: ganttchart.pdf, page3 used on input line 224.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [13 <./ganttchart.pdf>]
+ [16 <./ganttchart.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
 (./Eindverslag_Robin.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `Eindverslag_Robin.out' has not changed.
-(rerunfilecheck)             Checksum: 91462FE3A679059845F4D4882E17AE3C;709.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+(rerunfilecheck)             Checksum: 4E0C74ED061E66AFD04E4919DDD3EA78;852.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 19700 strings out of 492995
- 378241 string characters out of 6132704
- 443158 words of memory out of 5000000
- 22800 multiletter control sequences out of 15000+600000
+ 19729 strings out of 492995
+ 378968 string characters out of 6132704
+ 444830 words of memory out of 5000000
+ 22817 multiletter control sequences out of 15000+600000
  13069 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,80p,1088b,1035s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,80p,1143b,1035s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
@@ -1535,10 +1592,10 @@ ve/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive
 7/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Eindverslag_Robin.pdf (13 pages, 19995781 bytes).
+Output written on Eindverslag_Robin.pdf (16 pages, 27730341 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 364 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

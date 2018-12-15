@@ -38,10 +38,10 @@
 
 
 \section{Onze oplossing}
-Dit hoofdstuk is opgedeeld in verschillende deelproblemen: het verwijderen van de achtergrond, het lokaliseren van de indicator en de gebruiksvriendelijke app. Dit alles is gerealiseerd met behulp van de programmeertaal MATLAB.
+In dit hoofdstuk trachten we een oplossing te vinden voor ons probleem. We willen namelijk het percentage indicatorpixels in een willekeurige afbeelding kunnen berekenen. Het hoofdstuk is opgedeeld in verschillende deelproblemen, namelijk het verwijderen van de achtergrond, het lokaliseren van de indicator en de gebruiksvriendelijke app. Alle resultaten zijn bekomen met behulp van de programmeertaal MATLAB.
 
 \subsection{Achtergrondverwijdering}
-Het eerste deelprobleem van ons project is het verwijderen van de achtergrond. Op de afbeeldingen is er heel wat vuiligheid te vinden. Voorbeelden hiervan zijn luchtbellen of kleine verkleuringen in de achtergrond zoals men ziet op de Figuur \ref{figuur achtergrondverwijdering}. Hieronder beschrijven we verschillende operaties om de grootste klonters te lokaliseren en alles wat geen klonter is te verwijderen. Dit leidt tot een ruisvrije afbeelding.
+Het eerste deelprobleem is het verwijderen van de achtergrond. Op de afbeeldingen is er heel wat vuiligheid te vinden. Voorbeelden hiervan zijn luchtbellen of kleine verkleuringen in de achtergrond zoals men ziet op de Figuur \ref{figuur achtergrondverwijdering}. Hieronder beschrijven we verschillende operaties om de grootste klonters te lokaliseren en alles wat geen klonter is uit de afbeelding te verwijderen. Dit leidt in feite tot een ruisvrije afbeelding.
 
 \begin{figure}[H]
 	\centering
@@ -51,7 +51,7 @@ Het eerste deelprobleem van ons project is het verwijderen van de achtergrond. O
 \end{figure}
 
 \subsubsection{Bepalen van de beste threshold}
-Het onderscheid tussen de achtergrond (eerder wit) en de bloedklonter (eerder grijs) is makkelijker te zien op de grijswaarden van de afbeelding, zie Figuur \ref{figuur beste_threshold}.. Daarnaast is één grijswaarde voldoende om het onderscheid te maken. Wanneer een histogram opgesteld wordt van deze waarden is een duidelijk dipje tussen het wit en het grijs te zien, zie Figuur \ref{figuur graf1}. Dit is dan ook de theoretisch optimale threshold, de grijswaarde om een bloedklonterpixel van een achtergrondpixel te onderscheiden. Deze bepalen we simpelweg als het minimum in de tweede helft van de histogram. Na het toepassen van de threshold komt de binaire Figuur \ref{figuur foto_bin} tevoorschijn. Dit lijkt de klonters nagenoeg goed te detecteren.
+Het onderscheid tussen de achtergrond (eerder wit) en de bloedklonter (eerder grijs) is makkelijker te zien op de grijswaarden van de afbeelding, zie Figuur \ref{figuur beste_threshold}. Eén grijswaarde is nu voldoende om het onderscheid te maken. Een histogram van deze grijswaarden leert ons dat er een duidelijk dipje in de frequenties tussen het wit en het grijs te zien is, zie Figuur \ref{figuur graf1}. Dit is dan ook de theoretisch optimale threshold, de grijswaarde om een bloedklonterpixel van een achtergrondpixel te onderscheiden. Deze bepalen we simpelweg als het minimum in de tweede helft van de histogram. Wanneer we deze threshold toepassen, bekomen we de binaire Figuur \ref{figuur foto_bin}. Dit lijkt de klonters in de afbeelding nagenoeg goed te detecteren.
 
 \begin{figure}[H]
 	\centering
@@ -79,8 +79,8 @@ Het onderscheid tussen de achtergrond (eerder wit) en de bloedklonter (eerder gr
 \end{figure}
 
 \subsubsection{Ruisfilter}
-Eenmaal de binaire representatie is opgesteld, kunnen de bloedklonters nauwkeurig gelokaliseerd worden door al het overbodige ruis te verwijderen. De ruis kan makkelijk verwijderd worden door alle kleine groepen witte/zwarte pixels respectievelijk te vervangen door zwarte/witte pixels. Het resultaat is te zien op Figuur \ref{figuur ruisfilter} (a). \\
-Deze zogenaamde 'mask'\footnote{Bij het toepassen van een mask op een afbeelding, worden alle pixels in de afbeelding die zwart zijn in de mask, wit gemaakt. De andere pixels behouden hun kleur.} kan toegepast worden op de originele afbeelding om de ruisvrije afbeelding te vormen. Daarnaast wordt deze afbeelding bijgesneden om kostbare geheugenruimte te sparen, zoals te zien is in Figuur \ref{figuur ruisfilter} (b). In dit deelprobleem werd echter met een reeds bijgesneden bloedklonter gewerkt om de afbeeldingen duidelijk te houden. Een volledig onbewerkte afbeelding is echter te zien in Figuur \ref{figuur volledig_onbewerkt}
+Deze binaire representatie bevat heel wat holtes en ruis. In dit onderdeel proberen we dit probleem op te lossen. Hiervoor hebben we een simpele methode bedacht door enerzijds alle kleine groepen witte pixels te vervangen door zwarte pixels, zodat alleenstaande pixels (voornamelijk ruis) verdwijnen. Daarnaast vervangen we ook alle kleine groepen zwarte pixels door witte pixels, hierdoor worden daarenboven alle holtes in de bloedklonters opgevuld. Het resultaat van deze operatie is te zien op Figuur \ref{figuur ruisfilter} (a). \\
+We bekomen nu een zogenaamde 'mask' die toegepast kan worden op de originele afbeelding. Hierbij worden alle zwarte pixels op de mask vervangen door witte pixels op de originele afbeelding. Alle witte pixels op de mask behouden hun kleur op de originele afbeelding. Daarnaast wordt deze afbeelding nog bijgesneden om kostbare geheugenruimte\footnote{Eén afbeelding neemt al snel 50MB geheugen in beslag aangezien de resolutie kan oplopen tot 8000x8000 pixels.} te sparen, de afbeelding is te zien is in Figuur \ref{figuur ruisfilter} (b). In dit deelprobleem werd echter met een reeds bijgesneden bloedklonter gewerkt om de afbeeldingen duidelijk te houden. Een volledig onbewerkte afbeelding is echter te zien in Figuur \ref{figuur volledig_onbewerkt}
 
 \begin{figure}[H]
 	\centering
@@ -88,7 +88,7 @@ Deze zogenaamde 'mask'\footnote{Bij het toepassen van een mask op een afbeelding
 	\qquad
 	\subfloat[]{{\includegraphics[width=7cm]{ruisvrij_kleur_vb}}}
 	
-	\caption{Alle ruis is verwijderd, dit is een foto waarmee we kunnen werken.}
+	\caption{Alle ruis is verwijderd, dit is een foto die verder verwerkt kan worden.}
 	\label{figuur ruisfilter}
 \end{figure}
 
@@ -99,9 +99,30 @@ Deze zogenaamde 'mask'\footnote{Bij het toepassen van een mask op een afbeelding
 	\caption{Dit is een volledig onbewerkte afbeelding die we in \ref{figuur ruisfilter} (b) hebben bijgesneden en waarvan de achtergrond verwijderd is.}
 	\label{figuur volledig_onbewerkt}
 \end{figure}
+
+\subsubsection{Uitzonderingen}
+Naast de gewone bloedklonters zijn er ook nog enkele uitzonderingen. Sommige klonters hebben namelijk geen rode bloedcellen waardoor ze zeer wit zijn. Dit zien we ook op Figuur \ref{figuur lichte_kleuring}. Het probleem is dat we hier geen optimale threshold kunnen berekenen zoals eerder uitgelegd. Er is namelijk een zeer kleine afstand tussen de kleur van de bloedklonter en de achtergrond. Vandaar dat we in de app een slider verwerkt hebben om desnoods zelf die threshold te kunnen aanduiden. Wanneer de optimalisaties daarna op deze threshold toegepast worden, bekomen we Figuur \ref{figuur lichte_kleuring_binair}. Het is dus duidelijk te zien dat dit algoritme zeer krachtig is.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{lichte_kleuring}
+	
+	\caption{Een afbeelding van een bloedklonter zonder rode bloedcellen.}
+	\label{figuur lichte_kleuring}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{lichte_kleuring_binair}
+	
+	\caption{Dit is de binaire mask die we bekomen na het toepassen van de threshold en de optimalisatie van deze. De klonters worden nu met zekere precisie aangeduid.}
+	\label{figuur lichte_kleuring_binair}
+\end{figure}
+
+
 \subsection{Lokalisatie van de indicator}
-Het tweede deel van ons project is de indicators lokaliseren en kwantificeren. We hebben de opdracht gekregen twee soorten te kunnen onderscheiden. Van deze is een voorbeeld op Figuur \ref{figuur indicators} te zien. Omdat het kleurverschil tussen indicator en achtergrond niet altijd even groot is, vormen we het oorspronkelijke \textit{RGB} kleurmodel\footnote{Het RGB kleurmodel is een voorstelling waarbij ieder kleur voorgesteld wordt door een waarde van de drie basiskleuren (rood, groen en blauw)} om naar het zogenaamde \textit{HSV} kleurmodel. Dit model is een alternatieve voorstelling waarbij men alle kleuren op een cirkel voorstelt, de hoek die dit kleur dan maakt, noemt men de \textit{Hue}. Naast deze waarde heeft \textit{HSV} nog twee andere parameters namelijk \textit{Saturation} en \textit{Value}. \textit{Saturation} kan simpel beschouwd worden als een aanduiding van de hoeveelheid witte kleur en \textit{Value} een aanduiding van de zwarte kleur. Een grafische voorstelling is te zien op Figuur \ref{figuur hsv_schema}.\\
-Het voordeel van deze transformatie is dat het heel wat eenvoudiger is om een onderscheid tussen dichtbijgelegen kleuren te vinden. Een andere mogelijke transformatie is die naar het \textit{LAB} of het \textit{CMYK} kleurmodel die gelijkaardige eigenschappen heeft en desnoods ook gebruikt kan worden. Eenmaal we een duidelijk onderscheid tussen de indicator en de achtergrond maken, kunnen we eenvoudig het percentage indicator berekenen door het aantal bloedklonter- en indicatorpixels op te tellen. Ons stappenplan wordt in volgende hoofdstukken besproken en wordt toegepast op de afbeelding uit Figuur \ref{figuur indicators} (a).
+Het tweede deel van ons project is de indicators lokaliseren en kwantificeren. Ons project moet in staat zijn twee specifieke soorten van indicatoren te onderscheiden. Van deze is een voorbeeld op Figuur \ref{figuur indicators} te zien. Omdat het kleurverschil tussen wat aangeduid worden (indicator) en wat niet (achtergrond) niet altijd even groot is, vormen we het oorspronkelijke \textit{RGB} kleurmodel\footnote{Het RGB kleurmodel is een voorstelling waarbij ieder kleur voorgesteld wordt door een waarde van de drie basiskleuren (rood, groen en blauw)} om naar het zogenaamde \textit{HSV} kleurmodel. Dit model is een alternatieve voorstelling waarbij men alle kleuren op een cirkel voorstelt, de hoek die dit kleur dan maakt, noemt men de \textit{Hue}. Naast deze waarde heeft \textit{HSV} nog twee andere parameters namelijk \textit{Saturation} en \textit{Value}. \textit{Saturation} kan simpel beschouwd worden als een aanduiding van de hoeveelheid witte kleur en \textit{Value} een aanduiding van de zwarte kleur. Een grafische voorstelling is te zien op Figuur \ref{figuur hsv_schema}.\\
+Het voordeel van deze transformatie is dat het heel wat eenvoudiger is om een onderscheid tussen dichtbijgelegen kleuren te vinden. Een andere mogelijke transformatie is die naar het \textit{LAB} of het \textit{CMYK} kleurmodel die gelijkaardige eigenschappen heeft en desnoods ook gebruikt kan worden. Eenmaal we een duidelijk onderscheid tussen de indicator en de achtergrond gemaakt hebben, berekenen we eenvoudig het percentage indicator als de verhouden van het aantal bloedklonter- en indicatorpixels. Ons stappenplan wordt in de volgende hoofdstukken besproken en wordt toegepast op de afbeelding uit Figuur \ref{figuur indicators} (a). Maar kan evenwel gebruikt worden op de andere kleuring, met andere beginwaarden.
 
 \begin{figure}[H]
 	\centering
@@ -122,7 +143,7 @@ Het voordeel van deze transformatie is dat het heel wat eenvoudiger is om een on
 \end{figure}
 
 \subsubsection{Het HSV kleurmodel}
-Zoals reeds vermeld, beginnen we met een transformatie naar het \textit{HSV} kleurmodel. Bijgevolg kunnen we de twee voorstellingen vergelijken. We hebben het model telkens ontbonden in de drie kleurwaarden, waarbij zwart de laagste waarde voor dat kleur is en wit de hoogste. De resultaten zijn te zien in de Figuren \ref{figuur RGB} en \ref{figuur HSV}. Het verschil tussen de twee kleurmodellen is duidelijk te zien. Afbeelding (a) en (b) uit Figuur \ref{figuur HSV} lijken namelijk een iets agressiever onderscheid te maken.
+Zoals reeds vermeld, beginnen we met een transformatie naar het \textit{HSV} kleurmodel. Bijgevolg kunnen we de twee voorstellingen vergelijken. We hebben het model telkens ontbonden in de drie kleurwaarden, waarbij zwart de laagste waarde voor dat kleur voorstelt en wit de hoogste. De resultaten zijn te zien in de Figuren \ref{figuur RGB} en \ref{figuur HSV}. Het verschil tussen de twee kleurmodellen is duidelijk te zien. Afbeelding (a) en (b) uit Figuur \ref{figuur HSV} lijken namelijk een iets agressiever onderscheid te maken.
 
 \begin{figure}[H]
 	\centering
@@ -148,19 +169,21 @@ Zoals reeds vermeld, beginnen we met een transformatie naar het \textit{HSV} kle
 \end{figure}
 
 \subsubsection{Een algemene threshold}
-De volgende stap is nu een filter bepalen voor alle indicatorpixels. Het probleem is echter dat een goede filter voor de ene foto niet altijd een goede filter voor de andere foto is. Daarom hebben we voor iedere foto manueel een 'threshold' bepaald en deze achteraf met elkaar vergeleken. Het resultaat is een vrij algemene threshold die alle indicatorpixels met zekerheid aanduidt. Af en toe worden jammer genoeg verkeerde pixels aangeduid. Het aantal is weliswaar niet zo groot, maar dit zullen we trachten te omzeilen in het volgende hoofdstuk. Een voorbeeld van deze algemene threshold is te zien op de Figuur \ref{figuur alg_tresh}.
+De volgende stap is een filter bepalen voor de indicatorpixels. Het probleem is echter dat een goede filter voor de ene afbeelding niet altijd een goede filter voor de andere is. Daarom hebben we voor iedere afbeelding afzonderlijk manueel een 'threshold' bepaald en deze achteraf met elkaar vergeleken. Het resultaat is bijgevolg een vrij algemene threshold die alle indicatorpixels met zekerheid aanduidt, zoals te zien is op Figuur \ref{figuur alg_tresh}. Het enigste probleem is dat bepaalde pixels verkeerd aangeduid worden. Het aantal is weliswaar niet zo groot, maar aangezien ze in iedere afbeelding voorkomen zullen we dit trachten te omzeilen.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width = 0.7\textwidth]{algemene_threshold}
 	
-	\caption{We hebben alle indicatoren met een blauwe kleur aangeduid. De algemene threshold selecteert alle indicatorpixels, maar jammer genoeg ook enkele verkeerde (voornamelijk rechtsonder).}
+	\caption{We hebben alle indicatoren met een blauwe kleur aangeduid. De algemene threshold selecteert alle indicatorpixels, maar jammer genoeg ook enkele verkeerde, deze zijn aangeduid met een pijl.}
 	\label{figuur alg_tresh}
 \end{figure}
 
 \subsubsection{Optimalisatie van de threshold}
-In dit hoofdstuk willen we het aantal verkeerde pixels verminderen zonder de juiste te beïnvloeden. We hebben echter al een vrij goede threshold waardoor we een statistische analyse van wat onder deze mask ligt, kunnen uitvoeren. We stellen hiervoor een histogram van de \textit{HSV} kleurwaarden onder de mask op. Het levert ons namelijk een interessant resultaat dat te zien is in Figuur  \ref{figuur HSVHIST}. We zien namelijk duidelijke verschillen in de frequenties van de kleurwaarden. De grafieken tussen de verschillende afbeeldingen zijn nagenoeg gelijk van vorm, maar de pieken liggen soms meer dan 5\% verschoven.\\
-Het idee is om nu de verkeerde pixels via deze diagrammen eruit te filteren. Indien we dat de verkeerde pixels essentieel in kleur verschillen van indicatorpixels en dat ze niet vaak voorkomen. Dan kunnen we in principe alle pixels met een frequentie onder een bepaalde grenswaarde schrappen. Een betere benadering is misschien om het punt te vinden, waar de frequentie van de pixels enorm begint toe te nemen of we met andere woorden grote 'indicatoraders' aan het verwijderen zijn. Dit punt kan theoretisch benaderd worden als het maximum van de tweede afgeleide naar de kleurwaarde. Hierdoor worden nog iets minder verkeerde pixels aangeduid zoals verwacht. Het nadeel is dat ook alle pixels met een waarde rond de 1 op Figuur  \ref{figuur HSVHIST} natuurlijk negeren. Waardoor deze weer manueel toegevoegd moeten worden.  
-Een extra stap is tenslotte nog de indicatorpixels morfologisch te sluiten met een algoritme dat reeds in MATLAB verwerkt is. Dit is zeer nuttig omdat de indicatorpixels meestal met elkaar verbonden zijn en daardoor deze weer onderling kunnen verbinden.
+In dit hoofdstuk willen we het aantal verkeerde pixels verminderen zonder de juiste te beïnvloeden. We hebben echter al een vrij correcte threshold waardoor we een statistische analyse van wat onder de bijhorende mask ligt, kunnen uitvoeren. Hiervoor stellen we een histogram van de \textit{HSV} kleurwaarden onder de mask op. Het levert ons een interessant resultaat dat te zien is in Figuur  \ref{figuur HSVHIST}. We zien namelijk duidelijke verschillen in de frequenties van bepaalde kleurwaarden.\\
+Het idee is om nu de verkeerde pixels via deze diagrammen eruit te filteren. Hiervoor doen we de aanname dat de verkeerde pixels essentieel in kleur verschillen van indicatorpixels. We weten ook uit Figuur \ref{figuur alg_tresh} dat verkeerde pixels minder vaak voorkomen dan de juiste. De huidige threshold zou dus in feite manueel bijgestuurd kunnen worden, maar dit heeft geen zin. De grafieken van verschillende afbeelding hebben namelijk eenzelfde vorm, maar hun pieken liggen soms meer dan 5\% verschoven. Daarom passen we op iedere afbeelding afzonderlijk automatisch een filter toe. In principe kunnen alle pixels met een frequentie onder een bepaalde grenswaarde geschrapt worden. Maar een betere benadering is misschien om het punt te vinden, waar de frequentie van de pixels enorm begint toe te nemen. Indien we deze thresholdwaarde naar de pieken toeschuiven, zijn we eigenlijk grote 'indicatoraders' aan het verwijderen. Dit zien we op Figuur \ref{figuur HSVHIST_aangeduid}. Dit punt kan theoretisch benaderd worden als het maximum van de tweede afgeleide naar de kleurwaarde. \\
+Wanneer we deze filter toepassen, bekomen we het resultaat dat te zien is op Figuur \ref{figuur morf} (a). De zones die eerder verkeerd werden aangeduid zijn nu bijna volledig verdwenen.\\
+Een extra stap die we tenslotte nog toepassen is het morfologisch sluiten van de pixels. Dit doen we door indicatorpixels die niet ver van elkaar gelegen zijn met elkaar te verbinden. Het is namelijk zo dat wanneer een pixel omringt is door indicatorpixels, de kans hoog is dat deze pixel ook een indicatorpixel is. Dit is te zien op \ref{figuur morf} (b).\\
+De laatste stap die nu nog rest is het optellen van alle aangeduide pixels en alle bloedklonterpixels. Wanneer we dan de verhouding nemen, bekomen we het percentage indicator, wat net gevraagd werd.
 
 
 \begin{figure}[H]
@@ -177,13 +200,25 @@ Een extra stap is tenslotte nog de indicatorpixels morfologisch te sluiten met e
 
 \begin{figure}[H]
 	\centering
-	\subfloat[]{{\includegraphics[width=7cm]{morf_open}}}
-	\qquad
-	\subfloat[]{{\includegraphics[width=7cm]{morf_gesloten}}}
+	\subfloat[]{{\includegraphics[width=0.7\textwidth]{hsvhist_aangeduid}}}
 	
-	\caption{Illustratie waarbij de witte cirkels uit afbeelding (a) morfologisch gesloten worden in afbeelding (b)}
+	\caption{Op de figuur is hebben we een punt op de curve aangeduid. Wanneer we dit punt naar links verschuiven, verwijderen we telkens grotere stukken indicator van onze afbeelding. Dit willen we net vermijden.}
+	\label{figuur HSVHIST_aangeduid}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\subfloat[]{{\includegraphics[width=7cm]{threshold_filtered}}}
+	\qquad
+	\subfloat[]{{\includegraphics[width=7cm]{threshold_morfologisch}}}
+	
+	\caption{Illustratie waarbij we in (a) een algoritmische filter hebben toegepast om mogelijke ruis te verwijderen. In afbeelding (b) hebben we deze mask nog eens morfologisch gesloten, waardoor we een duidelijke aanduiding van de indicatorpixels bekomen.}
 	\label{figuur morf}
 \end{figure}
+
+\subsubsection{Problemen}
+We kunnen nu wel met redelijke precisie de indicatoren in de afbeelding aanduiden, maar dit is niet even simpel voor iedere afbeelding.
+Het probleem met deze kleuringen is namelijk dat er heel wat variatie in de afbeeldingen zit. De effectieve kleuring in het labo is afhankelijk van verschillende factoren. Hierdoor kan deze kleuring van dag tot dag verschillen. Daarenboven zijn wij als student ingenieurswetenschappen ook niet getraind om rode bloedcellen te detecteren. Bijgevolg hebben we in onze app ervoor gezorgd dat onze filter met behulp van verschillende sliders altijd bijgestuurd kan worden door de gebruiker en dus toch het gewenste resultaat bekomen kan worden.
 	
 	
 	\includepdf[page={1-3}]{ganttchart}	
