@@ -4,39 +4,47 @@
 % Automatisch stappen doen
 
 
-Im = imread("test.tif");
+Im = imread("2018_1 VWF 17 Raw.tif");
+%imshow(Im);
 Im(end-70:end-30,30:330,:) = 255;
 %Im(end-70:end-30,30:330,2) = 255;
 %Im(end-70:end-30,30:330,3) = 255; % watermark verwijderen
 %imshow(Im);
 gray = rgb2gray(Im);
 %imshow(gray);
-bestThreshold = getBestThreshold(gray, 200)
-if bestThreshold == 200 & max(
-    mask = gray > 240;
-    disp('Lage kleur')
-else 
-    mask = gray > bestThreshold;
-end
-
+bestThreshold = getBestThreshold(gray, 200);
+%if bestThreshold == 200 & max(
+%    mask = gray > 240;
+%    disp('Lage kleur')
+%else 
+mask = gray > bestThreshold;
+%end
 
 gray(mask) = 0;
 gray(~mask) = 255;
+
+%imshow(gray);
+
 %imshow(gray);
 %fillHoles = imfill(gray,'holes');
 %imshow(fillHoles);
 %filledHoles = ~bwareaopen(mask, 5000);
 %filledHoles = fillHoles & ~gray
-se = strel('disk',4);
+se = strel('disk',1);
 fillHoles = imclose(gray,se);
-fillHoles = ~bwareaopen(~fillHoles, 1500); %holtes opvullen
+%imshow(~gray)
+fillHoles = ~bwareaopen(~gray, 1000); %holtes opvullen
 %fillHoles = fillHoles & gray;
 %figure
 %imshow(fillHoles);
-%figure
+figure
 beter = bwareaopen(fillHoles, 5000); % holtes verwijderen
-%imshow(beter)
+%imshow(beter);
+%hold on;B = bwboundaries(beter,'noholes');visboundaries(B);
+
 %figure
+
+%imshow(beter);
 
 r = Im(:,:,1);
 g = Im(:,:,2);
