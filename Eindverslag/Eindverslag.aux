@@ -27,6 +27,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Statistieken van de \textit  {World Health Organization} van 2016 waarin te zien is dat wereldwijd beroertes (\textit  {strokes}) de tweede meest frequente doodsoorzaak is.\relax }}{2}{figure.caption.2}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{figuur doodsoorzaken}{{1}{2}{Statistieken van de \textit {World Health Organization} van 2016 waarin te zien is dat wereldwijd beroertes (\textit {strokes}) de tweede meest frequente doodsoorzaak is.\relax }{figure.caption.2}{}}
+\citation{matlab}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Klantenvereisten}{4}{section.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Ontwerpspecificatie}{4}{section.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Illustratie van de twee soorten indicator (respectievelijk paars en donkerroze) die gedetecteerd moeten worden. We zien duidelijk dat het detecteren op afbeelding (a) eenvoudiger zal zijn dan op afbeelding (b).\relax }}{4}{figure.caption.4}}
@@ -36,8 +37,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3}Onze oplossing}{5}{section.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Achtergrondverwijdering}{5}{subsection.3.1}}
 \newlabel{Achtergrondverwijdering}{{3.1}{5}{Achtergrondverwijdering}{subsection.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces In de rechterbovenhoek zien we luchtbellen en in de onderste cirkel zien we een verkleuring die geen deel uitmaakt van een bloedklonter.\relax }}{5}{figure.caption.5}}
-\newlabel{figuur achtergrondverwijdering}{{3}{5}{In de rechterbovenhoek zien we luchtbellen en in de onderste cirkel zien we een verkleuring die geen deel uitmaakt van een bloedklonter.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces In de rechterbovenhoek zien we luchtbellen en in de onderste cirkel zien we een verkleuring. Beiden maken geen deel uit van een bloedklonter.\relax }}{5}{figure.caption.5}}
+\newlabel{figuur achtergrondverwijdering}{{3}{5}{In de rechterbovenhoek zien we luchtbellen en in de onderste cirkel zien we een verkleuring. Beiden maken geen deel uit van een bloedklonter.\relax }{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Bepalen van de beste threshold}{5}{subsubsection.3.1.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Illustratie van de originele foto (a) en deze omgezet in grijswaarden (b).\relax }}{6}{figure.caption.6}}
 \newlabel{figuur beste_threshold}{{4}{6}{Illustratie van de originele foto (a) en deze omgezet in grijswaarden (b).\relax }{figure.caption.6}{}}
@@ -61,8 +62,10 @@
 \newlabel{figuur lichte_kleuring_binair}{{10}{9}{Dit is de binaire mask die we bekomen na het toepassen van de threshold en de optimalisatie van deze. De klonters worden nu met zekere precisie aangeduid.\relax }{figure.caption.12}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Lokalisatie van de indicator}{9}{subsection.3.2}}
 \newlabel{lokalisatie_indicator}{{3.2}{9}{Lokalisatie van de indicator}{subsection.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Grafische voorstelling van het \textit  {HSV} (\textit  {Hue}, \textit  {Saturation}, \textit  {Value}) kleurmodel\relax }}{10}{figure.caption.13}}
-\newlabel{figuur hsv_schema}{{11}{10}{Grafische voorstelling van het \textit {HSV} (\textit {Hue}, \textit {Saturation}, \textit {Value}) kleurmodel\relax }{figure.caption.13}{}}
+\citation{hsvcolspace}
+\citation{hsvcolspace}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Grafische voorstelling van het \textit  {HSV} (\textit  {Hue}, \textit  {Saturation}, \textit  {Value}) kleurmodel\cite  {hsvcolspace}\relax }}{10}{figure.caption.13}}
+\newlabel{figuur hsv_schema}{{11}{10}{Grafische voorstelling van het \textit {HSV} (\textit {Hue}, \textit {Saturation}, \textit {Value}) kleurmodel\cite {hsvcolspace}\relax }{figure.caption.13}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Het HSV kleurmodel}{10}{subsubsection.3.2.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Illustratie van respectievelijk de rode, groene en blauwe kleurwaarden (\textit  {RGB}). Hierbij komt wit overeen met de maximumwaarde en zwart met de minimumwaarde van die kleur.\relax }}{11}{figure.caption.14}}
 \newlabel{figuur RGB}{{12}{11}{Illustratie van respectievelijk de rode, groene en blauwe kleurwaarden (\textit {RGB}). Hierbij komt wit overeen met de maximumwaarde en zwart met de minimumwaarde van die kleur.\relax }{figure.caption.14}{}}
@@ -101,6 +104,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6}Besluit}{15}{section.6}}
 \bibdata{TTverslagbib}
 \bibcite{worldhealthorganization}{1}
+\bibcite{matlab}{2}
+\bibcite{hsvcolspace}{3}
 \bibstyle{unsrt}
 \newlabel{LastPage}{{}{19}{}{page.19}{}}
 \xdef\lastpage@lastpage{19}
