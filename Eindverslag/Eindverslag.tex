@@ -71,6 +71,7 @@ Dit alles moet ten slotte verwerkt worden in een visuele en gebruiksvriendelijke
 \section{Onze oplossing}
 In dit hoofdstuk trachten we een oplossing te vinden voor ons probleem. We willen namelijk het percentage indicatorpixels in een willekeurige afbeelding kunnen berekenen. Het hoofdstuk is opgedeeld in verschillende deelproblemen: het verwijderen van de achtergrond, het lokaliseren van de indicator en de gebruiksvriendelijke app. Alle resultaten zijn bekomen met behulp van de programmeertaal MATLAB.\cite{matlab}
 
+
 \subsection{Achtergrondverwijdering} \label{Achtergrondverwijdering}
 Het eerste deelprobleem is het verwijderen van de achtergrond. Op de afbeeldingen is er heel wat vuiligheid te vinden. Voorbeelden hiervan zijn luchtbellen of kleine verkleuringen in de achtergrond zoals men ziet op de Figuur \ref{figuur achtergrondverwijdering}. In dit onderdeel wordt op zoek gegaan naar verschillende operaties om de grootste klonters te lokaliseren en alles wat geen klonter is uit de afbeelding te verwijderen. Dit leidt in feite tot een ruisvrije afbeelding.
 
@@ -190,7 +191,7 @@ Zoals reeds vermeld, wordt eerst een transformatie naar het \textit{HSV} kleurmo
 \end{figure}
 
 \subsubsection{Een algemene threshold}
-De volgende stap is een filter bepalen voor de indicatorpixels. Het probleem is echter dat een goede filter voor de ene afbeelding niet altijd een goede filter voor de andere is. Daarom werd voor iedere afbeelding afzonderlijk manueel een minimum- en maximumwaarde voor elke kleurwaarde bepaald. Daarna werd het minimum van deze minimumwaarden en het maximum van deze maximumwaarden berekend. Het resultaat is een vrij algemene threshold die alle indicatorpixels met zekerheid aanduidt. Een voorbeeld is te zien op Figuur \ref{figuur alg_tresh}. Het enigste probleem is dat bepaalde pixels nu wel verkeerd aangeduid worden. Het aantal is weliswaar niet zo groot, maar aangezien ze in iedere afbeelding voorkomen zullen we dit trachten te omzeilen.
+De volgende stap is een filter bepalen voor de indicatorpixels. Het probleem is echter dat een goede filter voor de ene afbeelding niet altijd een goede filter voor de andere is. Daarom werd voor iedere afbeelding afzonderlijk manueel een minimum- en maximumwaarde voor elke kleurwaarde bepaald. Daarna werd het minimum van deze minimumwaarden en het maximum van deze maximumwaarden berekend. Het resultaat is een vrij algemene threshold die alle indicatorpixels met zekerheid aanduidt. Een voorbeeld is te zien op Figuur \ref{figuur alg_tresh}. Het enigste probleem is dat bepaalde pixels nu wel verkeerd aangeduid worden. Het aantal is weliswaar niet zo groot, maar aangezien ze in elke afbeelding voorkomen zullen we dit trachten te omzeilen.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width = 0.7\textwidth]{algemene_threshold}
@@ -238,15 +239,14 @@ De laatste stap die nu nog rest is het optellen van alle aangeduide pixels en de
 \end{figure}
 
 \subsubsection{Problemen}
-De indicators worden nu wel met redelijke precisie in de afbeelding aangeduid, maar dit is niet even simpel voor iedere afbeelding.
+De indicators worden nu wel met redelijke precisie in de afbeelding aangeduid, maar dit is niet even simpel voor elke afbeelding.
 Het probleem met deze kleuringen is namelijk dat er heel wat variatie in de afbeeldingen zit. De effectieve kleuring in het labo is afhankelijk van verschillende factoren zoals bijvoorbeeld temperatuur, druk, luchtvochtigheid... Hierdoor kan deze kleuring van dag tot dag in intensiteit verschillen. Daarenboven zijn wij als student ingenieurswetenschappen ook niet getraind om rode bloedcellen te detecteren. Om hiervoor te compenseren zijn er in de app verschillende sliders om de filter bij te sturen. Zo kan toch altijd het gewenste resultaat bekomen worden.
 
 
 \subsection{De gebruiksvriendelijke applicatie}
-Naast het verwerken van de klonters is het ook de bedoeling dat de afbeelding op een makkelijke manier verwerkt kan worden. Vandaar dat we een gebruiksvriendelijke app in MATLAB ontwerpt hebben.
-Een screenshot van de grafische interface is te zien op Figuur \ref{figuur interface}. In dit hoofdstuk worden kort de functionaliteiten van deze app beschreven.\\
-De app kan op twee verschillende manieren gebruikt worden. In eerste instantie kan men een afbeelding ingeven die dan uiteindelijk het volledige verwerkingsproces van hoofdstuk \ref{Achtergrondverwijdering} en \ref{lokalisatie_indicator} doorloopt. Men begint met een afbeelding en een folder om de tussenresultaten op te slaan te kiezen. In de eerste fase van het verwerkingsproces wordt de afbeelding bijgesneden zodat enkel de bloedklonter nog zichtbaar is. Deze bijgesneden afbeelding wordt dan getoond. Indien men niet blij is met de bekomen resultaten kan men manueel de threshold bijsturen. Vervolgens begint de kleurenanalyse, hier wordt de volledige afbeelding verwerkt om uiteindelijk een percentage indicator aan te duiden. Deze verwerkte afbeelding wordt dan ook getoond zoals te zien is op Figuur \ref{figuur interface}. Daarnaast wordt het percentage van de hoeveelheid aanwezige indicator weergegeven. Indien men niet tevreden is met het resultaat, kan men een transformatie naar een andere kleurruimte (HSV, CMYK of RGB) toepassen. Daarnaast kan men ook met verscheidene sliders een manuele selectie van de indicator doen. Men kan ten slotte nog opteren om de additionele filter uit hoofdstuk \ref{additional_filter} uit te schakelen. \\
-De app kan ook op een nog andere manier gebruikt worden. Men kan namelijk een volledige folder met afbeeldingen selecteren om de achtergrond van iedere afbeelding te verwijderen. Deze afbeeldingen worden bijgevolg opgeslagen in een eerder gedefinieerde folder.
+Naast het verwerken van de klonters is het ook de bedoeling dat de afbeelding op een makkelijke manier verwerkt kan worden. Vandaar dat we een gebruiksvriendelijke app in MATLAB gemaakt hebben. Aan de hand van MATLAB Coder is het mogelijk om een standalone versie van deze applicatie te creëren, waardoor de gebruiker geen MATLAB geïnstalleerd moet hebben. Een screenshot van de grafische interface van de app is te zien op Figuur \ref{figuur interface}. In dit hoofdstuk zullen we kort de functionaliteiten van deze app beschrijven.
+De app kan op twee verschillende manieren gebruikt worden. In eerste instantie kan men een afbeelding ingeven die dan uiteindelijk het volledige verwerkingsproces van hoofdstuk \ref{Achtergrondverwijdering} en \ref{lokalisatie_indicator} doorloopt. Men begint met het kiezen van een afbeelding en een folder om de tussenresultaten op te slaan. In de eerste fase van het verwerkingsproces wordt de afbeelding bijgesneden zodat enkel de bloedklonter nog zichtbaar is. Deze bijgesneden afbeelding wordt dan getoond. Indien men niet blij is met de bekomen resultaten kan men manueel de threshold bijsturen. Vervolgens begint de kleurenanalyse, hier wordt de volledige afbeelding verwerkt om uiteindelijk een percentage indicator aan te duiden. Deze verwerkte afbeelding wordt dan ook getoond zoals te zien is op Figuur \ref{figuur interface}. Daarnaast wordt het percentage van de hoeveelheid aanwezige indicator weergegeven. Indien men niet tevreden is met het resultaat, kan men een transformatie naar een andere kleurruimte (HSV, CMYK of RGB) toepassen. Daarnaast kan men ook met verscheidene sliders een manuele selectie van de indicator doen. Men kan ten slotte nog opteren om de additionele filter uit hoofdstuk \ref{additional_filter} uit te schakelen. \\
+De app kan ook op een andere manier gebruikt worden. Men kan namelijk een volledige folder met afbeeldingen selecteren om de achtergrond van iedere afbeelding te verwijderen. Deze afbeeldingen worden bijgevolg opgeslagen in een eerder gedefinieerde folder.
 
 \begin{figure}[H]
 	\centering
@@ -265,8 +265,10 @@ Helemaal achteraan dit verslag voegden we ook een Gantt-chart toe. Hierin staan 
 \section{Integratie van vakken}
 Om dit probleem op te lossen, hebben we gebruik gemaakt van MATLAB. Het is dan ook een meerwaarde dat we in het eerste semester het vak 'Beginselen van Programmeren' gehad hebben om sneller vertrouwd te raken met deze nieuwe programmeertaal. Daarnaast leren we ook in 'nummerieke wiskunde' werken met MATLAB. Om de verschillende thresholds te bepalen in ons programma, maken we ook gebruik van en statistische analyse van de pixelwaarden. Het vak 'Statistiek' draagt hier dus ook zijn steentje bij.
 
-\section{Besluit}
-Via de huidige app is het mogelijk om afbeeldingen in te laden en automatisch te verwerken. Soms is het verwijderen van de afbeelding niet nauwkeurig genoeg door bijvoorbeeld het gebrek aan rode bloedcellen. Gelukkig kan men de threshold in de app bijsturen. Daarnaast kan de app automatisch indicatorcellen aanduiden en het percentage tonen. Indien men ook hier niet tevreden is, kan dit desnoods nog bijgestuurd worden. De app voldoet dus aan de vereisten die gevraagd werden.
+\section{Besluit}	
+We zijn erin geslaagd een app te ontwikkelen die de achtergrond op een afbeelding van een bloedklonter kan verwijderen. Daarenboven wordt de ruisvrije afbeelding automatisch bijgesneden. Ten slotte is er de mogelijkheid om het percentage van de hoeveelheid aanwezige indicator in de bloedklonter op te vragen.\\ 
+De indicatoren worden in deze afbeelding vrij precies aangeduid maar dit is niet voor elke afbeelding even voor de hand liggend. Het is te wijten aan de onderlinge verschillen tussen de afbeelding door onder andere de kleuring die van intensiteit kan variëren. Daarom kan men manueel ingrijpen door middel van verschillende sliders. \\ 
+Verder hebben we er rekening mee gehouden dat onze app gebruikt kan worden door klanten die geen MATLAB geïnstalleerd hebben. Dit zorgt ervoor dat ons eindresultaat voor iedereen gebruiksvriendelijk is.
 
 \newpage
 \bibliography{TTverslagbib}
