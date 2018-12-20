@@ -4,7 +4,7 @@
 % Automatisch stappen doen
 
 
-Im = imread("2018_1 VWF 17 Raw.tif");
+Im = imread("test.tif");
 %imshow(Im);
 Im(end-70:end-30,30:330,:) = 255;
 %Im(end-70:end-30,30:330,2) = 255;
